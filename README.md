@@ -30,6 +30,10 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 ✅ Completed Problems:
 - [x] 0001 Two Sum (Easy)
 
+| ID   | Title   | Difficulty | Solution                          | Time | Space |
+| ---- | ------- | ---------- | --------------------------------- | ---- | ----- |
+| 0001 | Two Sum | Easy       | [Two Sum](./easy/0001_two_sum.py) | O(n) | O(n)  |
+
 I update this repository regularly as part of my technical growth and preparation for global engineering challenges.
 
 ---
