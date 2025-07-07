@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/language-python-blue)
 ![LeetCode](https://img.shields.io/badge/LeetCode-Active-brightgreen)
 
-👋 Hi, I'm Robert Nguyen.
+👋 Hi, I'm Robert Nguyen.  
 👨‍💻 **Python & Java Developer** working towards **Remote opportunities** with potential relocation.
 
 This repository showcases **clean, readable Python solutions** to selected LeetCode problems, structured with test cases and organized for consistent daily practice and interview preparation.
@@ -66,7 +66,7 @@ python -m unittest easy/0001_two_sum/test_two_sum.py
 ---
 
 ## Contact
-📫 **Email**: [**robert.nguyen.global.dev@gmail.com**](mailto:robert.nguyen.global.dev@gmail.com)
+📫 **Email**: [**robert.nguyen.global.dev@gmail.com**](mailto:robert.nguyen.global.dev@gmail.com)  
 🔗 **GitHub**: [**robert-nguyen-global-dev**](https://github.com/robert-nguyen-global-dev)
 
 ---
