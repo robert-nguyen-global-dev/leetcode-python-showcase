@@ -4,8 +4,6 @@
 ![Python](https://img.shields.io/badge/language-python-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=robert-nguyen-global-dev.leetcode-python-showcase)
-![Solved](https://img.shields.io/badge/solved-0-green)
-![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)
 
 👋 Hi, I'm Robert Nguyen.  
 👨‍💻 **Python & Java Developer** working towards **Remote opportunities** with potential relocation.
@@ -24,6 +22,9 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 ---
 
 ## 📈 Progress Tracker
+Below are real-time progress and build status for this repo.  
+![Solved](https://img.shields.io/badge/solved-2-green)
+![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
 - [ ] 50 Medium
@@ -38,7 +39,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 | 0001 | Two Sum          | Easy       | [Python](./easy/0001_two_sum/two_sum.py)           | O(n) | O(n)  |
 | 0013 | Roman to Integer | Easy       | [Python](./easy/0013_roman_to_int/roman_to_int.py) | O(n) | O(1)  |
 
-I update this repository regularly as part of my technical growth and preparation for global engineering challenges.
+This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
 
 ---
 
