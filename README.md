@@ -5,6 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=robert-nguyen-global-dev.leetcode-python-showcase)
 ![Solved](https://img.shields.io/badge/solved-0-green)
+![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)
 
 👋 Hi, I'm Robert Nguyen.  
 👨‍💻 **Python & Java Developer** working towards **Remote opportunities** with potential relocation.
