@@ -21,18 +21,20 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ---
 
-## Progress
-📈 Target:
+## 📈 Progress Tracker
+🎯 Target:
 - [ ] 50 Easy
 - [ ] 50 Medium
 - [ ] 50 Hard
 
 ✅ Completed Problems:
 - [x] 0001 Two Sum (Easy)
+- [x] 0013 Roman to Integer (Easy)
 
-| ID   | Title   | Difficulty | Solution                                  | Time | Space |
-| ---- | ------- | ---------- | ----------------------------------------- | ---- | ----- |
-| 0001 | Two Sum | Easy       | [Two Sum](./easy/0001_two_sum/two_sum.py) | O(n) | O(n)  |
+| ID   | Title            | Difficulty | Solution                                           | Time | Space |
+| ---- | ---------------- | ---------- | -------------------------------------------------- | ---- | ----- |
+| 0001 | Two Sum          | Easy       | [Python](./easy/0001_two_sum/two_sum.py)           | O(n) | O(n)  |
+| 0013 | Roman to Integer | Easy       | [Python](./easy/0013_roman_to_int/roman_to_int.py) | O(n) | O(1)  |
 
 I update this repository regularly as part of my technical growth and preparation for global engineering challenges.
 
