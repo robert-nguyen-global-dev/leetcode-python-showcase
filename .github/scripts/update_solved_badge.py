@@ -1,14 +1,19 @@
 import os
 
 def count_solved():
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
     count = 0
     for folder in ['easy', 'medium', 'hard']:
-        if os.path.exists(folder):
-            count += len([f for f in os.listdir(folder) if os.path.isdir(os.path.join(folder, f))])
+        folder_path = os.path.join(repo_root, folder)
+        if os.path.exists(folder_path):
+            count += len([f for f in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, f))])
     return count
 
 def update_readme(count):
-    with open("README.md", "r", encoding="utf-8") as f:
+    repo_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+    readme_path = os.path.join(repo_root, "README.md")
+
+    with open(readme_path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     new_lines = []
@@ -19,7 +24,7 @@ def update_readme(count):
         else:
             new_lines.append(line)
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open(readme_path, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
 if __name__ == "__main__":
