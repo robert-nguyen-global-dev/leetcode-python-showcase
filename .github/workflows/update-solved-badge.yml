@@ -24,3 +24,16 @@ jobs:
     - name: Update solved badge in README
       run: |
         python .github/scripts/update_solved_badge.py
+
+    - name: Commit and push if README.md changed
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        if git diff --quiet; then
+          echo "✅ No changes to commit."
+        else
+          git add README.md
+          git commit -m "docs(readme): auto-update solved problems count badge"
+          git push
+        fi
