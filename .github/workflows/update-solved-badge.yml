@@ -39,6 +39,6 @@ jobs:
           echo "✅ No changes to commit."
         else
           git add README.md
-          git commit -m "docs(readme): auto-update solved problems count badge"
+          git commit -m "docs(readme): auto-update solved problems badge to reflect new solved count"
           git push
         fi
