@@ -3,6 +3,7 @@ name: Update Solved Badge
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -27,18 +28,18 @@ jobs:
         python -m pip install --upgrade pip
 
     - name: Update solved badge in README
+      id: update_solved_badge
       run: |
         python .github/scripts/update_solved_badge.py
 
-    - name: Commit and push if README.md changed
+    - name: Commit and push if solved badge changed
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        if git diff --quiet; then
-          echo "✅ No changes to commit."
-        else
+        if [ -f .badge_updated ]; then
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "docs(readme): auto-update solved problems badge to reflect new solved count"
           git push
+        else
+          echo "No solved badge change detected. Skipping commit."
         fi
