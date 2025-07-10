@@ -34,12 +34,14 @@ Below are real-time progress and build status for this repo.
 - [x] 0001 Two Sum (Easy)
 - [x] 0013 Roman to Integer (Easy)
 - [x] 0020 Valid Parentheses (Easy)
+- [x] 0021 Merge Two Sorted Lists (Easy)
 
 | ID   | Title             | Difficulty | Solution                                                     | Time | Space |
 | ---- | ----------------- | ---------- | ------------------------------------------------------------ | ---- | ----- |
 | 0001 | Two Sum           | Easy       | [Python](./easy/0001_two_sum/two_sum.py)                     | O(n) | O(n)  |
 | 0013 | Roman to Integer  | Easy       | [Python](./easy/0013_roman_to_int/roman_to_int.py)           | O(n) | O(1)  |
 | 0020 | Valid Parentheses | Easy       | [Python](./easy/0020_valid_parentheses/valid_parentheses.py) | O(n) | O(n)  |
+| 0021 | Merge Two Sorted List | Easy       | [Python](./easy/0021_merge_two_sorted_lists/merge_two_sorted_lists.py) | O(n + m) | O(1)  |
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
 
