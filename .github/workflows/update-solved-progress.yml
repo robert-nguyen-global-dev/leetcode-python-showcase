@@ -1,4 +1,4 @@
-name: Update Solved Badge
+name: Update Solved Progress
 
 on:
   push:
@@ -28,9 +28,9 @@ jobs:
         python -m pip install --upgrade pip
 
     - name: Update solved badge in README
-      id: update_solved_badge
+      id: update_solved_progress
       run: |
-        python .github/scripts/update_solved_badge.py
+        python .github/scripts/update_solved_progress.py
 
     - name: Commit and push if solved badge changed
       run: |
