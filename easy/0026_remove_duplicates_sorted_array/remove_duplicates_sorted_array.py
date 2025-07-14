@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         """
@@ -13,6 +14,12 @@ class Solution:
         """
         Internal implementation.
         Removes duplicates from sorted array in-place and returns the new length.
+
+        Uses two pointers to overwrite duplicates while preserving order,
+        achieving linear time and constant space.
+
+        Time Complexity: O(n) — where n is the length of the input array.
+        Space Complexity: O(1) — modifies the array in-place without extra memory.
 
         Args:
             nums (List[int]): A sorted list of integers.

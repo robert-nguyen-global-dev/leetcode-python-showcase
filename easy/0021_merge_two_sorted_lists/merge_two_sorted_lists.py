@@ -1,5 +1,6 @@
 from typing import Optional
 
+
 class ListNode:
     def __init__(self, val: int = 0, next: Optional['ListNode'] = None):
         self.val = val
@@ -21,6 +22,7 @@ class ListNode:
     def __repr__(self):
         return f"{self.val} -> {self.next}"
 
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         """
@@ -34,6 +36,11 @@ class Solution:
         """
         Internal implementation.
         Merges two sorted linked lists and returns the merged sorted list.
+
+        Performs in-place merging by reusing nodes to achieve linear time and constant space.
+
+        Time Complexity: O(m + n) — where m and n are the lengths of the input lists.
+        Space Complexity: O(1) — uses constant extra space by reusing existing nodes.
 
         Args:
             list1 (Optional[ListNode]): First sorted linked list.

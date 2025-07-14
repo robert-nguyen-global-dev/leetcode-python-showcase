@@ -12,6 +12,11 @@ class Solution:
         Internal implementation.
         Converts a Roman numeral string to its corresponding integer value.
 
+        Parses the input string using a fixed lookup table to accumulate values.
+        
+        Time Complexity: O(n) — where n is the length of the input string.
+        Space Complexity: O(1) — due to the use of a lookup table for fixed mappings.
+
         Args:
             s (str): Roman numeral string.
 

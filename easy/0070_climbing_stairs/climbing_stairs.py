@@ -13,7 +13,10 @@ class Solution:
         Calculates the number of distinct ways to climb to the top of a staircase
         with `n` steps, where each time you can climb 1 or 2 steps.
 
-        Uses bottom-up dynamic programming (O(n) time, O(1) space).
+        Uses bottom-up dynamic programming with rolling variables to achieve linear time and constant space.
+
+        Time Complexity: O(n) — iterates once through n steps.
+        Space Complexity: O(1) — uses a fixed number of variables without extra data structures.
 
         Args:
             n (int): Number of steps.
