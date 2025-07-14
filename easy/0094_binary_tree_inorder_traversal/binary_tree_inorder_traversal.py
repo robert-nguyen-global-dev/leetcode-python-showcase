@@ -25,8 +25,10 @@ class Solution:
         Internal implementation.
         Performs inorder traversal of a binary tree (Left → Node → Right).
 
-        Time: O(n) where n is the number of nodes in the tree.
-        Space: O(n) for the result list and recursion stack in the worst case.
+        Traverses all nodes while collecting values, with recursive stack contributing to space usage.
+
+        Time Complexity: O(n) — where n is the number of nodes in the tree.
+        Space Complexity: O(n) — for the result list and recursion stack in the worst case.
 
         Args:
             root (Optional[TreeNode]): The root of the binary tree.

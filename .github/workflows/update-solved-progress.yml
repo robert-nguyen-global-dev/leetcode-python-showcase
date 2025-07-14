@@ -1,0 +1,58 @@
+name: Update Solved Progress
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+
+    - name: Update solved progress in README
+      id: update_solved_progress
+      run: python .github/scripts/update_solved_progress.py
+
+    - name: Import GPG key
+      if: success()
+      run: |
+        echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+        echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+        echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
+        gpgconf --kill gpg-agent
+      env:
+        GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+
+    - name: Set Git identity
+      run: |
+        git config user.name "Robert Nguyen"
+        git config user.email "robert.nguyen.global.dev@gmail.com"
+        git config commit.gpgSign true
+
+    - name: Commit and push if solved badge changed
+      env:
+        GPG_KEY_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
+      run: |
+        if [ -f .solved_progress_marker ]; then
+          echo "$GPG_KEY_PASSPHRASE" | \
+            gpg --batch --yes --passphrase-fd 0 --pinentry-mode loopback \
+            git commit -S -am "docs(readme): auto-update solved problems progress to reflect new solved problems"
+          git push
+        else
+          echo "No solved badge change detected. Skipping commit."
+        fi

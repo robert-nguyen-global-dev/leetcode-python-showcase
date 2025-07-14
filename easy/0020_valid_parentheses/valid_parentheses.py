@@ -12,7 +12,10 @@ class Solution:
         Internal implementation.
         Checks whether the given string of parentheses is valid.
 
-        A string is valid if all types of brackets are closed in the correct order.
+        Checks if a string of brackets is valid by using a stack to ensure correct pairing and order.
+
+        Time Complexity: O(n) — where n is the length of the input string.
+        Space Complexity: O(n) — in the worst case, all characters are opening brackets stored in the stack.
 
         Args:
             s (str): Input string containing only '(', ')', '{', '}', '[' and ']'.

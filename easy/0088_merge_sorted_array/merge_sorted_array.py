@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -15,6 +16,12 @@ class Solution:
         Internal implementation.
         Merges two sorted arrays, modifying `nums1` in-place to contain the merged result.
 
+        Traverses both arrays from the end and fills `nums1` from the back to avoid overwriting elements,
+        achieving linear time and constant space.
+
+        Time Complexity: O(m + n) — where m and n are the number of valid elements in nums1 and nums2.
+        Space Complexity: O(1) — merges in-place using pointer manipulation.
+
         Args:
             nums1 (List[int]): First array with length m + n, where the first m elements are valid.
             m (int): Number of valid elements in nums1.
@@ -24,9 +31,9 @@ class Solution:
         Returns:
             None
         """
-		pointer_nums1 = m - 1
-		pointer_nums2 = n - 1
-		insert_position = m + n - 1
+        pointer_nums1 = m - 1
+        pointer_nums2 = n - 1
+        insert_position = m + n - 1
 
 		while pointer_nums1 >= 0 and pointer_nums2 >= 0:
 			if nums1[pointer_nums1] > nums2[pointer_nums2]:

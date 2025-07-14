@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.solved_progress_marker
 .env
 .idea/
 .vscode/
