@@ -42,6 +42,7 @@ jobs:
       run: |
         git config user.name "Robert Nguyen"
         git config user.email "robert.nguyen.global.dev@gmail.com"
+        git config user.signingkey ${{ secrets.GPG_KEY_ID }}
         git config commit.gpgSign true
 
     - name: Commit and push if solved badge changed
@@ -49,9 +50,7 @@ jobs:
         GPG_KEY_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
       run: |
         if [ -f .solved_progress_marker ]; then
-          echo "$GPG_KEY_PASSPHRASE" | \
-            gpg --batch --yes --passphrase-fd 0 --pinentry-mode loopback \
-            git commit -S -am "docs(readme): auto-update solved problems progress to reflect new solved problems"
+          git commit -S -am "docs(readme): auto-update solved problems progress to reflect new solved problems"
           git push
         else
           echo "No solved badge change detected. Skipping commit."
