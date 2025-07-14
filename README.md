@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-8-brightgreen)
+![Solved](https://img.shields.io/badge/solved-8-green)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,25 +31,14 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- [x] 0001 Two Sum (Easy)
-- [x] 0013 Roman to Integer (Easy)
-- [x] 0020 Valid Parentheses (Easy)
-- [x] 0021 Merge Two Sorted Lists (Easy)
-- [x] 0026 Remove Duplicates Sorted Array (Easy)
-- [x] 0070 Climbing Stairs (Easy)
-- [x] 0088 Merge Sorted Array (Easy)
-- [x] 0094 Binary Tree Inorder Traversal (Easy)
+- Easy: 0 / 50 🚧
+- Medium: 0 / 50 🚧
+- Hard: 0 / 50 🚧
 
-| ID   | Title             | Difficulty | Solution                                                     | Time | Space |
-| ---- | ----------------- | ---------- | ------------------------------------------------------------ | ---- | ----- |
-| 0001 | Two Sum           | Easy       | [Python](./easy/0001_two_sum/two_sum.py)                     | O(n) | O(n)  |
-| 0013 | Roman to Integer  | Easy       | [Python](./easy/0013_roman_to_int/roman_to_int.py)           | O(n) | O(1)  |
-| 0020 | Valid Parentheses | Easy       | [Python](./easy/0020_valid_parentheses/valid_parentheses.py) | O(n) | O(n)  |
-| 0021 | Merge Two Sorted List | Easy   | [Python](./easy/0021_merge_two_sorted_lists/merge_two_sorted_lists.py) | O(n + m) | O(1)  |
-| 0026 | Remove Dupicates Sorted Array  | Easy   | [Python](./easy/0026_remove_duplicates_sorted_array/remove_duplicates_sorted_array.py)      | O(n)   | O(1)  |
-| 0070 | Climbing Stairs   | Easy       | [Python](./easy/0070_climbing_stairs/climbing_stairs.py)               | O(n)     | O(1)  |
-| 0088 | Merge Sorted Array    | Easy   | [Python](./easy/0088_merge_sorted_array/merge_sorted_array.py)         | O(m + n) | O(1)  |
-| 0094 | Binary Tree Inorder Traversal  | Easy   | [Python](./easy/0094_binary_tree_inorder_traversal/binary_tree_inorder_traversal.py)    | O(n) | O(n)  |
+<!-- SOLUTION_TABLE_START -->
+| No. | ID   | Title             | Difficulty | Solution | Time | Space |
+|-----|------|-------------------|------------|----------|------|-------|
+<!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
 
