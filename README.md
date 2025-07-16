@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-9-brightgreen)
+![Solved](https://img.shields.io/badge/solved-10-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 9 / 50 ✅
+- Easy: 10 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -47,6 +47,7 @@ Below are real-time progress and build status for this repo.
 | 7   | 0088 | Merge Sorted Array | Easy       | [Python](./easy/0088_merge_sorted_array/merge_sorted_array.py) | O(m + n) | O(1) |
 | 8   | 0094 | Binary Tree Inorder Traversal | Easy       | [Python](./easy/0094_binary_tree_inorder_traversal/binary_tree_inorder_traversal.py) | O(n) | O(n) |
 | 9   | 0101 | Symmetric Tree    | Easy       | [Python](./easy/0101_symmetric_tree/symmetric_tree.py)       | O(n) | O(h) |
+| 10  | 0104 | Maximum Depth Binary Tree | Easy       | [Python](./easy/0104_maximum_depth_binary_tree/maximum_depth_binary_tree.py) | O(n) | O(h) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
