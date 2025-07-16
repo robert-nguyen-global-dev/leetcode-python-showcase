@@ -9,8 +9,9 @@ permissions:
   contents: write
 
 jobs:
-  update-badge:
+  update-solved-progress:
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
     - name: Checkout repo
