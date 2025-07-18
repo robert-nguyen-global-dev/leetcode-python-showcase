@@ -23,18 +23,19 @@ class Solution:
     def _inorder_traversal(self, root: Optional[TreeNode]) -> List[int]:
         """
         Internal implementation.
-        Performs inorder traversal of a binary tree (Left → Node → Right).
+        Performs an inorder traversal of a binary tree (Left → Node → Right), collecting node values in sequence.
 
-        Traverses all nodes while collecting values, with recursive stack contributing to space usage.
+        This recursive approach visits all nodes while maintaining a call stack that mirrors the tree's structure.
+        It ensures values are collected in the correct inorder sequence, useful in many binary search tree operations.
 
         Time Complexity: O(n) — where n is the number of nodes in the tree.
-        Space Complexity: O(n) — for the result list and recursion stack in the worst case.
+        Space Complexity: O(n) — for the recursion stack and result list in the worst case (completely unbalanced tree).
 
         Args:
             root (Optional[TreeNode]): The root of the binary tree.
 
         Returns:
-            List[int]: List of node values in inorder.
+            List[int]: List of node values collected in inorder.
         """
         result: List[int] = []
 

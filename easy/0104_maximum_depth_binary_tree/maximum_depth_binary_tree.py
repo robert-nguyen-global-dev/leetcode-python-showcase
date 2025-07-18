@@ -23,16 +23,20 @@ class Solution:
     def _max_depth(self, root: Optional[TreeNode]) -> int:
         """
         Internal implementation.
-        Recursively computes the maximum depth of a binary tree.
+        Recursively calculates the maximum depth (or height) of a binary tree, defined as the number of nodes
+        along the longest path from the root node down to the farthest leaf node.
 
-        Time Complexity: O(n) — where n is the number of nodes.
-        Space Complexity: O(h) — where h is the height of the tree (due to recursion stack).
+        At each node, it computes the depth of its left and right subtrees, then returns the greater of the two,
+        plus one for the current node.
+
+        Time Complexity: O(n) — where n is the number of nodes in the tree.
+        Space Complexity: O(h) — where h is the height of the tree, due to the recursion stack.
 
         Args:
-            root (Optional[TreeNode]): The root of the binary tree.
+            root (Optional[TreeNode]): The root node of the binary tree.
 
         Returns:
-            int: Maximum depth of the binary tree.
+            int: The maximum depth of the tree.
         """
         if root is None:
             return 0

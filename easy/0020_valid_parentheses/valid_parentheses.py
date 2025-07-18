@@ -1,6 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         """
+        Entry point for LeetCode submission.
         Wrapper method to comply with LeetCode's required method name.
 
         Delegates to `_is_valid()` for actual implementation.
@@ -10,18 +11,19 @@ class Solution:
     def _is_valid(self, s: str) -> bool:
         """
         Internal implementation.
-        Checks whether the given string of parentheses is valid.
+        Checks whether a given string of brackets is valid in terms of proper opening and closing order.
 
-        Checks if a string of brackets is valid by using a stack to ensure correct pairing and order.
+        Uses a stack to track opening brackets and matches each closing bracket accordingly,
+        ensuring that every bracket type is closed in the correct sequence and properly nested.
 
         Time Complexity: O(n) — where n is the length of the input string.
         Space Complexity: O(n) — in the worst case, all characters are opening brackets stored in the stack.
 
         Args:
-            s (str): Input string containing only '(', ')', '{', '}', '[' and ']'.
+            s (str): Input string consisting only of '(', ')', '{', '}', '[' and ']'.
 
         Returns:
-            bool: True if the string is valid, False otherwise.
+            bool: True if the bracket sequence is valid, False otherwise.
         """
         stack = []
         bracket_map = {')': '(', ']': '[', '}': '{'}

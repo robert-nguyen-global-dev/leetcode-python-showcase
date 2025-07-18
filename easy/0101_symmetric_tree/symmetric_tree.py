@@ -23,16 +23,20 @@ class Solution:
     def _is_symmetric(self, root: Optional[TreeNode]) -> bool:
         """
         Internal implementation.
-        Checks whether a binary tree is symmetric around its center.
+        Determines whether a binary tree is symmetric around its center, meaning the left and right subtrees
+        are mirror images of each other.
+
+        The algorithm performs a recursive check by comparing mirrored node pairs from the left and right subtrees,
+        ensuring structural and value symmetry at each level.
 
         Time Complexity: O(n) — where n is the number of nodes in the tree.
-        Space Complexity: O(h) — for the recursion stack, h is the height of the tree.
+        Space Complexity: O(h) — where h is the height of the tree, due to the recursion stack.
 
         Args:
-            root (Optional[TreeNode]): The root of the binary tree.
+            root (Optional[TreeNode]): The root node of the binary tree.
 
         Returns:
-            bool: True if the tree is symmetric, False otherwise.
+            bool: True if the binary tree is symmetric, False otherwise.
         """
         def is_mirror(left_subtree: Optional[TreeNode], right_subtree: Optional[TreeNode]) -> bool:
             if left_subtree is None and right_subtree is None:

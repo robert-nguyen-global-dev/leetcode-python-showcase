@@ -1,6 +1,7 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
         """
+        Entry point for LeetCode submission.
         Wrapper method to comply with LeetCode's required method name.
 
         Delegates to `_roman_to_int()` for actual implementation.
@@ -10,15 +11,16 @@ class Solution:
     def _roman_to_int(self, s: str) -> int:
         """
         Internal implementation.
-        Converts a Roman numeral string to its corresponding integer value.
+        Converts a Roman numeral string to its corresponding integer by parsing symbols and applying subtraction rules.
 
-        Parses the input string using a fixed lookup table to accumulate values.
-        
+        Uses a fixed lookup table to map Roman characters to values and iterates through the string,
+        adjusting the total based on whether the current symbol is smaller than the next (e.g., IV = 4).
+
         Time Complexity: O(n) — where n is the length of the input string.
-        Space Complexity: O(1) — due to the use of a lookup table for fixed mappings.
+        Space Complexity: O(1) — constant space used for the lookup table.
 
         Args:
-            s (str): Roman numeral string.
+            s (str): Roman numeral string containing characters 'I', 'V', 'X', 'L', 'C', 'D', and 'M'.
 
         Returns:
             int: The integer value corresponding to the Roman numeral.

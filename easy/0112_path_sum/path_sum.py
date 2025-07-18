@@ -14,30 +14,29 @@ class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         """
         Entry point for LeetCode submission.
-        Delegates to `_has_path_sum()` for internal logic.
-
-        Args:
-            root (Optional[TreeNode]): The root of the binary tree.
-            targetSum (int): The desired sum along a root-to-leaf path.
-
-        Returns:
-            bool: True if such a path exists, False otherwise.
+        Wrapper method to comply with LeetCode's required method name.
+		
+        Delegates to `_has_path_sum()` for actual implementation.
         """
         return self._has_path_sum(root, targetSum)
 
     def _has_path_sum(self, node: Optional[TreeNode], remaining_sum: int) -> bool:
         """
-        Recursively checks whether a root-to-leaf path exists with the given sum.
+        Internal implementation.
+        Recursively determines if there exists a root-to-leaf path such that the sum of node values equals the target.
 
-        Time Complexity: O(n), where n is the number of nodes.
-        Space Complexity: O(h), where h is the height of the tree.
+        At each node, it subtracts the current node's value from the remaining target sum and recursively checks
+        left and right subtrees. If a leaf node is reached and the remaining sum is zero, a valid path is found.
+
+        Time Complexity: O(n) — where n is the total number of nodes.
+        Space Complexity: O(h) — where h is the height of the tree due to the recursion stack.
 
         Args:
-            node (Optional[TreeNode]): Current node in traversal.
-            remaining_sum (int): Remaining sum required for path.
+            node (Optional[TreeNode]): Current node being explored.
+            remaining_sum (int): Remaining sum needed to reach the target path sum.
 
         Returns:
-            bool: True if such path exists, False otherwise.
+            bool: True if such a path exists from root to leaf, False otherwise.
         """
         if node is None:
             return False
