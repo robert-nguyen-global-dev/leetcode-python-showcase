@@ -91,7 +91,8 @@ python -m unittest easy/0001_two_sum/test_two_sum.py
 ## Contact
 
 📫 **Email**: [**robert.nguyen.global.dev@gmail.com**](mailto:robert.nguyen.global.dev@gmail.com)  
-🔗 **GitHub**: [**robert-nguyen-global-dev**](https://github.com/robert-nguyen-global-dev)
+🔗 **GitHub**: [**robert-nguyen-global-dev**](https://github.com/robert-nguyen-global-dev)  
+💼 **LinkedIn**: [**in/robert-nguyen-global-dev**](https://www.linkedin.com/in/robert-nguyen-global-dev/)
 
 ---
 
