@@ -13,7 +13,7 @@ class TreeNode:
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         """
-        Entry point for LeetCode submission.
+        Entry point for LeetCode submission.  
         Wrapper method to comply with LeetCode's required method name.
 
         Delegates to `_is_symmetric()` for actual implementation.
@@ -22,14 +22,14 @@ class Solution:
 
     def _is_symmetric(self, root: Optional[TreeNode]) -> bool:
         """
-        Internal implementation.
+        Internal implementation.  
         Determines whether a binary tree is symmetric around its center, meaning the left and right subtrees
         are mirror images of each other.
 
         The algorithm performs a recursive check by comparing mirrored node pairs from the left and right subtrees,
         ensuring structural and value symmetry at each level.
 
-        Time Complexity: O(n) — where n is the number of nodes in the tree.
+        Time Complexity: O(n) — where n is the number of nodes in the tree.  
         Space Complexity: O(h) — where h is the height of the tree, due to the recursion stack.
 
         Args:

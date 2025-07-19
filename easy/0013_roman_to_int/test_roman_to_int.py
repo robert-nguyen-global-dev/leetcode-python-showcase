@@ -1,6 +1,7 @@
 import unittest
 from roman_to_int import Solution
 
+
 # Internal logic test only
 class TestRomanToInt(unittest.TestCase):
     def setUp(self):
@@ -20,6 +21,7 @@ class TestRomanToInt(unittest.TestCase):
 
     def test_case_5(self):
         self.assertEqual(self.solution._roman_to_int("MCMXCIV"), 1994)  # M=1000, CM=900, XC=90, IV=4
+
 
 if __name__ == '__main__':
     unittest.main()

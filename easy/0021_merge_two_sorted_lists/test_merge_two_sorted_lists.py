@@ -1,6 +1,7 @@
 import unittest
 from merge_two_sorted_lists import ListNode, Solution
 
+
 def build_linked_list(values):
     dummy = ListNode()
     current = dummy
@@ -10,6 +11,7 @@ def build_linked_list(values):
         current = current.next
         
     return dummy.next
+
 
 # Internal logic test only
 class TestMergeTwoSortedLists(unittest.TestCase):
@@ -33,6 +35,7 @@ class TestMergeTwoSortedLists(unittest.TestCase):
         list2 = build_linked_list([0])
         expected_result = build_linked_list([0])
         self.assertEqual(self.solution._merge_two_lists(list1, list2), expected_result)
+
 
 if __name__ == '__main__':
     unittest.main()

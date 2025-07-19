@@ -1,6 +1,7 @@
 import unittest
 from merge_sorted_array import Solution
 
+
 # 🧪 Unit tests for internal logic `_merge_sorted_array`
 class TestMergeSortedArray(unittest.TestCase):
     def setUp(self):
@@ -29,6 +30,7 @@ class TestMergeSortedArray(unittest.TestCase):
         nums2 = [1]
         self.solution._merge_sorted_array(nums1, 1, nums2, 1)
         self.assertEqual(nums1, [1, 2])
+
 
 if __name__ == '__main__':
     unittest.main()

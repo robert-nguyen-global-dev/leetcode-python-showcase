@@ -1,6 +1,7 @@
 import unittest
 from valid_parentheses import Solution
 
+
 # Internal logic test only
 class TestValidParentheses(unittest.TestCase):
     def setUp(self):
@@ -19,6 +20,7 @@ class TestValidParentheses(unittest.TestCase):
 
     def test_empty_string(self):
         self.assertTrue(self.solution._is_valid(""))
+
 
 if __name__ == '__main__':
     unittest.main()

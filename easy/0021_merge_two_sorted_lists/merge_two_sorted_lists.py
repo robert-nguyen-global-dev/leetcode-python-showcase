@@ -26,7 +26,7 @@ class ListNode:
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         """
-        Entry point for LeetCode submission.
+        Entry point for LeetCode submission.  
         Wrapper method to comply with LeetCode's required method name.
 
         Delegates to `_merge_two_lists()` for actual implementation.
@@ -35,14 +35,14 @@ class Solution:
 
     def _merge_two_lists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         """
-        Internal implementation.
+        Internal implementation.  
         Merges two sorted singly linked lists into one sorted list by reusing existing nodes,
         without allocating new list nodes.
 
         Traverses both input lists simultaneously, attaching the smaller current node to the result list,
         ensuring all elements remain in non-decreasing order while minimizing memory usage.
 
-        Time Complexity: O(m + n) — where m and n are the lengths of the input lists.
+        Time Complexity: O(m + n) — where m and n are the lengths of the input lists.  
         Space Complexity: O(1) — merges in-place by reassigning existing pointers without extra allocation.
 
         Args:

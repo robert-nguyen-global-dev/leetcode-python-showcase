@@ -1,6 +1,7 @@
 import unittest
 from remove_duplicates_sorted_array import Solution
 
+
 # 🧪 Unit tests for internal logic `_remove_duplicates`
 class TestRemoveDuplicatesSortedArray(unittest.TestCase):
     def setUp(self):
@@ -26,6 +27,7 @@ class TestRemoveDuplicatesSortedArray(unittest.TestCase):
         length = self.solution._remove_duplicates(nums)
         self.assertEqual(length, len(expected))
         self.assertEqual(nums[:length], expected)
+
 
 if __name__ == '__main__':
     unittest.main()

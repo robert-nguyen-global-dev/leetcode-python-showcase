@@ -1,6 +1,7 @@
 import unittest
 from climbing_stairs import Solution
 
+
 # 🧪 Unit tests for internal logic `_climb_stairs`
 class TestClimbingStairs(unittest.TestCase):
     def setUp(self):
@@ -23,6 +24,7 @@ class TestClimbingStairs(unittest.TestCase):
 
     def test_case_large(self):
         self.assertEqual(self.solution._climb_stairs(45), 1836311903)
+
 
 if __name__ == '__main__':
     unittest.main()
