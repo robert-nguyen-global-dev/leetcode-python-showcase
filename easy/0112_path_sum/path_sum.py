@@ -13,7 +13,7 @@ class TreeNode:
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         """
-        Entry point for LeetCode submission.
+        Entry point for LeetCode submission.  
         Wrapper method to comply with LeetCode's required method name.
 		
         Delegates to `_has_path_sum()` for actual implementation.
@@ -22,13 +22,13 @@ class Solution:
 
     def _has_path_sum(self, node: Optional[TreeNode], remaining_sum: int) -> bool:
         """
-        Internal implementation.
+        Internal implementation.  
         Recursively determines if there exists a root-to-leaf path such that the sum of node values equals the target.
 
         At each node, it subtracts the current node's value from the remaining target sum and recursively checks
         left and right subtrees. If a leaf node is reached and the remaining sum is zero, a valid path is found.
 
-        Time Complexity: O(n) — where n is the total number of nodes.
+        Time Complexity: O(n) — where n is the total number of nodes.  
         Space Complexity: O(h) — where h is the height of the tree due to the recursion stack.
 
         Args:

@@ -4,7 +4,7 @@ from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
-        Entry point for LeetCode submission.
+        Entry point for LeetCode submission.  
         Wrapper method to comply with LeetCode's required method name.
 
         Delegates to `_two_sum()` for actual implementation.
@@ -13,13 +13,13 @@ class Solution:
 
     def _two_sum(self, nums: List[int], target: int) -> List[int]:
         """
-        Internal implementation.
+        Internal implementation.  
         Finds two indices such that the numbers at those indices add up to the given target value.
 
-        Uses a hash map to store previously visited numbers and their indices while traversing the list.
+        Uses a hash map to store previously visited numbers and their indices while traversing the list.  
         For each number, checks if the complement (target - current) exists in the map.
 
-        Time Complexity: O(n) — where n is the number of elements in the list.
+        Time Complexity: O(n) — where n is the number of elements in the list.  
         Space Complexity: O(n) — additional space used for the hash map to track complements.
 
         Args:
