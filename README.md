@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-13-brightgreen)
+![Solved](https://img.shields.io/badge/solved-14-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 13 / 50 ✅
+- Easy: 14 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -51,6 +51,7 @@ Below are real-time progress and build status for this repo.
 | 11  | 0112 | Path Sum          | Easy       | [Python](./easy/0112_path_sum/path_sum.py)                   | O(n) | O(h) |
 | 12  | 0121 | Best Time To Buy And Sell Stock | Easy       | [Python](./easy/0121_best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.py) | O(n) | O(1) |
 | 13  | 0125 | Valid Palindrome  | Easy       | [Python](./easy/0125_valid_palindrome/valid_palindrome.py)   | O(n) | O(n) |
+| 14  | 0136 | Single Number     | Easy       | [Python](./easy/0136_single_number/single_number.py)         | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
