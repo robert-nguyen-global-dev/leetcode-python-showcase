@@ -1,33 +1,29 @@
-import unittest
+import pytest
 from remove_duplicates_sorted_array import Solution
 
 
-# 🧪 Unit tests for internal logic `_remove_duplicates`
-class TestRemoveDuplicatesSortedArray(unittest.TestCase):
-    def setUp(self):
-        self.solution = Solution()
-
-    def test_sorted_array_with_duplicates(self):
-        nums = [1, 1, 2]
-        expected = [1, 2]
-        length = self.solution._remove_duplicates(nums)
-        self.assertEqual(length, len(expected))
-        self.assertEqual(nums[:length], expected)
-
-    def test_longer_sorted_array_with_duplicates(self):
-        nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
-        expected = [0, 1, 2, 3, 4]
-        length = self.solution._remove_duplicates(nums)
-        self.assertEqual(length, len(expected))
-        self.assertEqual(nums[:length], expected)
-
-    def test_empty_array(self):
-        nums = []
-        expected = []
-        length = self.solution._remove_duplicates(nums)
-        self.assertEqual(length, len(expected))
-        self.assertEqual(nums[:length], expected)
+@pytest.fixture
+def solution():
+    return Solution()
 
 
-if __name__ == '__main__':
-    unittest.main()
+def test_sorted_array_with_duplicates(solution):
+    nums = [1, 1, 2]
+    expected = [1, 2]
+    length = solution._remove_duplicates(nums)
+    assert length == len(expected)
+    assert nums[:length] == expected
+
+def test_longer_sorted_array_with_duplicates(solution):
+    nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    expected = [0, 1, 2, 3, 4]
+    length = solution._remove_duplicates(nums)
+    assert length == len(expected)
+    assert nums[:length] == expected
+
+def test_empty_array(solution):
+    nums = []
+    expected = []
+    length = solution._remove_duplicates(nums)
+    assert length == len(expected)
+    assert nums[:length] == expected
