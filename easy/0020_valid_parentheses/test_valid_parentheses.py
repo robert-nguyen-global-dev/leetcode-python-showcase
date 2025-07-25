@@ -1,26 +1,22 @@
-import unittest
+import pytest
 from valid_parentheses import Solution
 
 
-# Internal logic test only
-class TestValidParentheses(unittest.TestCase):
-    def setUp(self):
-        self.solution = Solution()
+@pytest.fixture
+def solution():
+    return Solution()
+    
 
-    def test_valid_cases(self):
-        self.assertTrue(self.solution._is_valid("()"))
-        self.assertTrue(self.solution._is_valid("()[]{}"))
-        self.assertTrue(self.solution._is_valid("{[()]}"))
+def test_valid_cases(solution):
+    assert solution._is_valid("()")
+    assert solution._is_valid("()[]{}")
+    assert solution._is_valid("{[()]}")
 
-    def test_invalid_cases(self):
-        self.assertFalse(self.solution._is_valid("(]"))
-        self.assertFalse(self.solution._is_valid("([)]"))
-        self.assertFalse(self.solution._is_valid("("))
-        self.assertFalse(self.solution._is_valid("]"))
+def test_invalid_cases(solution):
+    assert not solution._is_valid("(]")
+    assert not solution._is_valid("([)]")
+    assert not solution._is_valid("(")
+    assert not solution._is_valid("]")
 
-    def test_empty_string(self):
-        self.assertTrue(self.solution._is_valid(""))
-
-
-if __name__ == '__main__':
-    unittest.main()
+def test_empty_string(solution):
+    assert solution._is_valid("")

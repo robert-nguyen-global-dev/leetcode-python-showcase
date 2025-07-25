@@ -1,4 +1,4 @@
-import unittest
+import pytest
 from typing import List, Optional
 from collections import deque
 from symmetric_tree import Solution, TreeNode
@@ -37,27 +37,13 @@ def build_tree_from_list(values: List[Optional[int]]) -> Optional[TreeNode]:
     return root
 
 
-# 🧪 Unit tests for internal logic `_is_symmetric`
-class TestSymmetricTree(unittest.TestCase):
-    def setUp(self):
-        self.solution = Solution()
-
-    def test_symmetric_tree(self):
-        root = build_tree_from_list([1, 2, 2, 3, 4, 4, 3])
-        self.assertTrue(self.solution._is_symmetric(root))
-
-    def test_asymmetric_tree(self):
-        root = build_tree_from_list([1, 2, 2, None, 3, None, 3])
-        self.assertFalse(self.solution._is_symmetric(root))
-
-    def test_empty_tree(self):
-        root = build_tree_from_list([])
-        self.assertTrue(self.solution._is_symmetric(root))
-
-    def test_single_node(self):
-        root = build_tree_from_list([1])
-        self.assertTrue(self.solution._is_symmetric(root))
-
-
-if __name__ == '__main__':
-    unittest.main()
+@pytest.mark.parametrize("tree_list, expected", [
+    ([1, 2, 2, 3, 4, 4, 3], True),             # symmetric
+    ([1, 2, 2, None, 3, None, 3], False),      # asymmetric
+    ([], True),                                # empty tree
+    ([1], True),                               # single node
+])
+def test_is_symmetric(tree_list, expected):
+    solution = Solution()
+    root = build_tree_from_list(tree_list)
+    assert solution._is_symmetric(root) == expected

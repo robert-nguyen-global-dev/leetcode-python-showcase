@@ -1,13 +1,10 @@
-import unittest
-from typing import List, Optional
+import pytest
+from typing import Optional, List
 from collections import deque
 from binary_tree_inorder_traversal import Solution, TreeNode
 
 
 def build_tree_from_list(values: List[Optional[int]]) -> Optional[TreeNode]:
-    """
-    Build binary tree from level-order list including None for missing nodes.
-    """
     if not values or values[0] is None:
         return None
 
@@ -37,31 +34,13 @@ def build_tree_from_list(values: List[Optional[int]]) -> Optional[TreeNode]:
     return root
 
 
-# 🧪 Unit tests for internal logic `_inorder_traversal`
-class TestBinaryTreeInorderTraversal(unittest.TestCase):
-    def setUp(self):
-        self.solution = Solution()
-
-    def test_case_1(self):
-        root = build_tree_from_list([1, None, 2, 3])
-        expected = [1, 3, 2]
-        self.assertEqual(self.solution._inorder_traversal(root), expected)
-
-    def test_case_2(self):
-        root = build_tree_from_list([])
-        expected = []
-        self.assertEqual(self.solution._inorder_traversal(root), expected)
-
-    def test_case_3(self):
-        root = build_tree_from_list([1])
-        expected = [1]
-        self.assertEqual(self.solution._inorder_traversal(root), expected)
-
-    def test_case_4(self):
-        root = build_tree_from_list([1, 2, 3, 4, 5])
-        expected = [4, 2, 5, 1, 3]
-        self.assertEqual(self.solution._inorder_traversal(root), expected)
-
-
-if __name__ == '__main__':
-    unittest.main()
+@pytest.mark.parametrize("tree_list, expected", [
+    ([1, None, 2, 3], [1, 3, 2]),
+    ([], []),
+    ([1], [1]),
+    ([1, 2, 3, 4, 5], [4, 2, 5, 1, 3]),
+])
+def test_inorder_traversal(tree_list, expected):
+    solution = Solution()
+    root = build_tree_from_list(tree_list)
+    assert solution._inorder_traversal(root) == expected
