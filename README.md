@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-18-brightgreen)
+![Solved](https://img.shields.io/badge/solved-19-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 18 / 50 ✅
+- Easy: 19 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -56,6 +56,7 @@ Below are real-time progress and build status for this repo.
 | 16  | 0145 | Binary Tree Postorder | Easy       | [Python](./easy/0145_binary_tree_postorder/binary_tree_postorder.py) | O(n) | O(n) |
 | 17  | 0160 | Intersection Of Two Linked Lists | Easy       | [Python](./easy/0160_intersection_of_two_linked_lists/intersection_of_two_linked_lists.py) | O(m + n) | O(1) |
 | 18  | 0169 | Majority Element  | Easy       | [Python](./easy/0169_majority_element/majority_element.py)   | O(n) | O(1) |
+| 19  | 0171 | Excel Column Number | Easy       | [Python](./easy/0171_excel_column_number/excel_column_number.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
