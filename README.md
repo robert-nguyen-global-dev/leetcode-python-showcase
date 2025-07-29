@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-22-brightgreen)
+![Solved](https://img.shields.io/badge/solved-23-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 22 / 50 ✅
+- Easy: 23 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -60,6 +60,7 @@ Below are real-time progress and build status for this repo.
 | 20  | 0191 | Number Of 1 Bits  | Easy       | [Python](./easy/0191_number_of_1_bits/number_of_1_bits.py)   | O(k) | O(1) |
 | 21  | 0202 | Happy Number      | Easy       | [Python](./easy/0202_happy_number/happy_number.py)           | O(log n) | O(1) |
 | 22  | 0206 | Reverse Linked List | Easy       | [Python](./easy/0206_reverse_linked_list/reverse_linked_list.py) | O(n) | O(1) |
+| 23  | 0217 | Contains Duplicate | Easy       | [Python](./easy/0217_contains_duplicate/contains_duplicate.py) | O(n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
