@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-27-brightgreen)
+![Solved](https://img.shields.io/badge/solved-28-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 27 / 50 ✅
+- Easy: 28 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -65,6 +65,7 @@ Below are real-time progress and build status for this repo.
 | 25  | 0242 | Valid Anagram     | Easy       | [Python](./easy/0242_valid_anagram/valid_anagram.py)         | O(n) | O(1) |
 | 26  | 0258 | Add Digits        | Easy       | [Python](./easy/0258_add_digits/add_digits.py)               | O(1) | O(1) |
 | 27  | 0268 | Missing Number    | Easy       | [Python](./easy/0268_missing_number/missing_number.py)       | O(n) | O(1) |
+| 28  | 0278 | First Bad Version | Easy       | [Python](./easy/0278_first_bad_version/first_bad_version.py) | O(log n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
