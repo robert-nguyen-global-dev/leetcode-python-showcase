@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-32-brightgreen)
+![Solved](https://img.shields.io/badge/solved-33-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 32 / 50 ✅
+- Easy: 33 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -70,6 +70,7 @@ Below are real-time progress and build status for this repo.
 | 30  | 0303 | Range Sum Query Immutable | Easy       | [Python](./easy/0303_range_sum_query_immutable/range_sum_query_immutable.py) | O(n) | O(n) |
 | 31  | 0326 | Power Of Three    | Easy       | [Python](./easy/0326_power_of_three/power_of_three.py)       | O(1) | O(1) |
 | 32  | 0344 | Reverse String    | Easy       | [Python](./easy/0344_reverse_string/reverse_string.py)       | O(n) | O(1) |
+| 33  | 0350 | Intersection Of Two Arrays Ii | Easy       | [Python](./easy/0350_intersection_of_two_arrays_ii/intersection_of_two_arrays_ii.py) | O(m + n) | O(min(m, n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
