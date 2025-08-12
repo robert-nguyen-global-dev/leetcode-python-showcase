@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-36-brightgreen)
+![Solved](https://img.shields.io/badge/solved-37-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 36 / 50 ✅
+- Easy: 37 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -74,6 +74,7 @@ Below are real-time progress and build status for this repo.
 | 34  | 0374 | Guess Number Higher Or Lower | Easy       | [Python](./easy/0374_guess_number_higher_or_lower/guess_number_higher_or_lower.py) | O(log n) | O(1) |
 | 35  | 0383 | Ransom Note       | Easy       | [Python](./easy/0383_ransom_note/ransom_note.py)             | O(m + n) | O(1) |
 | 36  | 0389 | Find The Difference | Easy       | [Python](./easy/0389_find_the_difference/find_the_difference.py) | O(n) | O(1) |
+| 37  | 0401 | Binary Watch      | Easy       | [Python](./easy/0401_binary_watch/binary_watch.py)           | O(720) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
