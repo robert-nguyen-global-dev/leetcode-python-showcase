@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-40-brightgreen)
+![Solved](https://img.shields.io/badge/solved-41-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 40 / 50 ✅
+- Easy: 41 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -78,6 +78,7 @@ Below are real-time progress and build status for this repo.
 | 38  | 0404 | Sum Of Left Leaves | Easy       | [Python](./easy/0404_sum_of_left_leaves/sum_of_left_leaves.py) | O(n) | O(h) |
 | 39  | 0409 | Longest Palindrome | Easy       | [Python](./easy/0409_longest_palindrome/longest_palindrome.py) | O(n) | O(1) |
 | 40  | 0412 | Fizz Buzz         | Easy       | [Python](./easy/0412_fizz_buzz/fizz_buzz.py)                 | O(n) | O(n) |
+| 41  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/find_disappeared_numbers.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
