@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-42-brightgreen)
+![Solved](https://img.shields.io/badge/solved-43-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 42 / 50 ✅
+- Easy: 43 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -80,6 +80,7 @@ Below are real-time progress and build status for this repo.
 | 40  | 0412 | Fizz Buzz         | Easy       | [Python](./easy/0412_fizz_buzz/fizz_buzz.py)                 | O(n) | O(n) |
 | 41  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/find_disappeared_numbers.py) | O(n) | O(1) |
 | 42  | 0461 | Hamming Distance  | Easy       | [Python](./easy/0461_hamming_distance/hamming_distance.py)   | O(1) | O(1) |
+| 43  | 0463 | Island Perimeter  | Easy       | [Python](./easy/0463_island_perimeter/island_perimeter.py)   | O(m * n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
