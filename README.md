@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-48-brightgreen)
+![Solved](https://img.shields.io/badge/solved-49-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 48 / 50 ✅
+- Easy: 49 / 50 ✅
 - Medium: 0 / 50 🚧
 - Hard: 0 / 50 🚧
 
@@ -86,6 +86,7 @@ Below are real-time progress and build status for this repo.
 | 46  | 0509 | Fibonacci Number  | Easy       | [Python](./easy/0509_fibonacci_number/fibonacci_number.py)   | O(n) | O(1) |
 | 47  | 0541 | Reverse String Ii | Easy       | [Python](./easy/0541_reverse_string_ii/reverse_string_ii.py) | O(n) | O(n) |
 | 48  | 0543 | Diameter Of Binary Tree | Easy       | [Python](./easy/0543_diameter_of_binary_tree/diameter_of_binary_tree.py) | O(n) | O(h) |
+| 49  | 0680 | Valid Palindrome Ii | Easy       | [Python](./easy/0680_valid_palindrome_ii/valid_palindrome_ii.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
