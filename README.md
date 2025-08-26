@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-50-brightgreen)
+![Solved](https://img.shields.io/badge/solved-51-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 50 / 50 ✅
-- Medium: 0 / 50 🚧
+- Medium: 1 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -88,6 +88,7 @@ Below are real-time progress and build status for this repo.
 | 48  | 0543 | Diameter Of Binary Tree | Easy       | [Python](./easy/0543_diameter_of_binary_tree/diameter_of_binary_tree.py) | O(n) | O(h) |
 | 49  | 0680 | Valid Palindrome Ii | Easy       | [Python](./easy/0680_valid_palindrome_ii/valid_palindrome_ii.py) | O(n) | O(1) |
 | 50  | 0704 | Binary Search     | Easy       | [Python](./easy/0704_binary_search/binary_search.py)         | O(log n) | O(1) |
+| 51  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
