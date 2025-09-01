@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-56-brightgreen)
+![Solved](https://img.shields.io/badge/solved-57-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 50 / 50 ✅
-- Medium: 6 / 50 ✅
+- Medium: 7 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -93,7 +93,8 @@ Below are real-time progress and build status for this repo.
 | 53  | 0005 | Longest Palindromic Substring | Medium     | [Python](./medium/0005_longest_palindromic_substring/longest_palindromic_substring.py) | O(n^2) | O(1) |
 | 54  | 0011 | Container With Most Water | Medium     | [Python](./medium/0011_container_with_most_water/container_with_most_water.py) | O(n) | O(1) |
 | 55  | 0015 | 3sum              | Medium     | [Python](./medium/0015_3Sum/three_sum.py)                    | O(n^2) | O(1) |
-| 56  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 56  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
+| 57  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
