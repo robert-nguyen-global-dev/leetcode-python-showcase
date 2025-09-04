@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-59-brightgreen)
+![Solved](https://img.shields.io/badge/solved-60-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 50 / 50 ✅
-- Medium: 9 / 50 ✅
+- Medium: 10 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -96,7 +96,8 @@ Below are real-time progress and build status for this repo.
 | 56  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
 | 57  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
 | 58  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
-| 59  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 59  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
+| 60  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
