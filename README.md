@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-63-brightgreen)
+![Solved](https://img.shields.io/badge/solved-64-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 50 / 50 ✅
-- Medium: 13 / 50 ✅
+- Medium: 14 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -100,7 +100,8 @@ Below are real-time progress and build status for this repo.
 | 60  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
 | 61  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
 | 62  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
-| 63  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 63  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
+| 64  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
