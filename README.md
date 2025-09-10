@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-65-brightgreen)
+![Solved](https://img.shields.io/badge/solved-66-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -31,7 +31,7 @@ Below are real-time progress and build status for this repo.
 - [ ] 50 Hard
 
 ✅ Completed Problems:
-- Easy: 51 / 50 ✅
+- Easy: 52 / 50 ✅
 - Medium: 14 / 50 ✅
 - Hard: 0 / 50 🚧
 
@@ -62,47 +62,48 @@ Below are real-time progress and build status for this repo.
 | 22  | 0202 | Happy Number      | Easy       | [Python](./easy/0202_happy_number/happy_number.py)           | O(log n) | O(1) |
 | 23  | 0206 | Reverse Linked List | Easy       | [Python](./easy/0206_reverse_linked_list/reverse_linked_list.py) | O(n) | O(1) |
 | 24  | 0217 | Contains Duplicate | Easy       | [Python](./easy/0217_contains_duplicate/contains_duplicate.py) | O(n) | O(n) |
-| 25  | 0234 | Palindrome Linked List | Easy       | [Python](./easy/0234_palindrome_linked_list/palindrome_linked_list.py) | O(n) | O(1) |
-| 26  | 0242 | Valid Anagram     | Easy       | [Python](./easy/0242_valid_anagram/valid_anagram.py)         | O(n) | O(1) |
-| 27  | 0258 | Add Digits        | Easy       | [Python](./easy/0258_add_digits/add_digits.py)               | O(1) | O(1) |
-| 28  | 0268 | Missing Number    | Easy       | [Python](./easy/0268_missing_number/missing_number.py)       | O(n) | O(1) |
-| 29  | 0278 | First Bad Version | Easy       | [Python](./easy/0278_first_bad_version/first_bad_version.py) | O(log n) | O(1) |
-| 30  | 0283 | Move Zeroes       | Easy       | [Python](./easy/0283_move_zeroes/move_zeroes.py)             | O(n) | O(1) |
-| 31  | 0303 | Range Sum Query Immutable | Easy       | [Python](./easy/0303_range_sum_query_immutable/range_sum_query_immutable.py) | O(n) | O(n) |
-| 32  | 0326 | Power Of Three    | Easy       | [Python](./easy/0326_power_of_three/power_of_three.py)       | O(1) | O(1) |
-| 33  | 0344 | Reverse String    | Easy       | [Python](./easy/0344_reverse_string/reverse_string.py)       | O(n) | O(1) |
-| 34  | 0350 | Intersection Of Two Arrays Ii | Easy       | [Python](./easy/0350_intersection_of_two_arrays_ii/intersection_of_two_arrays_ii.py) | O(m + n) | O(min(m, n) |
-| 35  | 0374 | Guess Number Higher Or Lower | Easy       | [Python](./easy/0374_guess_number_higher_or_lower/guess_number_higher_or_lower.py) | O(log n) | O(1) |
-| 36  | 0383 | Ransom Note       | Easy       | [Python](./easy/0383_ransom_note/ransom_note.py)             | O(m + n) | O(1) |
-| 37  | 0389 | Find The Difference | Easy       | [Python](./easy/0389_find_the_difference/find_the_difference.py) | O(n) | O(1) |
-| 38  | 0401 | Binary Watch      | Easy       | [Python](./easy/0401_binary_watch/binary_watch.py)           | O(720) | O(1) |
-| 39  | 0404 | Sum Of Left Leaves | Easy       | [Python](./easy/0404_sum_of_left_leaves/sum_of_left_leaves.py) | O(n) | O(h) |
-| 40  | 0409 | Longest Palindrome | Easy       | [Python](./easy/0409_longest_palindrome/longest_palindrome.py) | O(n) | O(1) |
-| 41  | 0412 | Fizz Buzz         | Easy       | [Python](./easy/0412_fizz_buzz/fizz_buzz.py)                 | O(n) | O(n) |
-| 42  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/test_find_disappeared_numbers.py) | O(?) | O(?) |
-| 43  | 0461 | Hamming Distance  | Easy       | [Python](./easy/0461_hamming_distance/hamming_distance.py)   | O(1) | O(1) |
-| 44  | 0463 | Island Perimeter  | Easy       | [Python](./easy/0463_island_perimeter/island_perimeter.py)   | O(m * n) | O(1) |
-| 45  | 0496 | Next Greater Element I | Easy       | [Python](./easy/0496_next_greater_element_i/next_greater_element.py) | O(m + n) | O(n) |
-| 46  | 0506 | Relative Ranks    | Easy       | [Python](./easy/0506_relative_ranks/relative_ranks.py)       | O(n log n) | O(n) |
-| 47  | 0509 | Fibonacci Number  | Easy       | [Python](./easy/0509_fibonacci_number/fibonacci_number.py)   | O(n) | O(1) |
-| 48  | 0541 | Reverse String Ii | Easy       | [Python](./easy/0541_reverse_string_ii/reverse_string_ii.py) | O(n) | O(n) |
-| 49  | 0543 | Diameter Of Binary Tree | Easy       | [Python](./easy/0543_diameter_of_binary_tree/diameter_of_binary_tree.py) | O(n) | O(h) |
-| 50  | 0680 | Valid Palindrome Ii | Easy       | [Python](./easy/0680_valid_palindrome_ii/valid_palindrome_ii.py) | O(n) | O(1) |
-| 51  | 0704 | Binary Search     | Easy       | [Python](./easy/0704_binary_search/binary_search.py)         | O(log n) | O(1) |
-| 52  | 0002 | Add Two Numbers   | Medium     | [Python](./medium/0002_add_two_numbers/add_two_numbers.py)   | O(max(m, n) | O(max(m, n) |
-| 53  | 0003 | Longest Substring Without Repeating Characters | Medium     | [Python](./medium/0003_longest_substring_without_repeating_characters/longest_substring_without_repeating.py) | O(n) | O(k) |
-| 54  | 0005 | Longest Palindromic Substring | Medium     | [Python](./medium/0005_longest_palindromic_substring/longest_palindromic_substring.py) | O(n^2) | O(1) |
-| 55  | 0011 | Container With Most Water | Medium     | [Python](./medium/0011_container_with_most_water/container_with_most_water.py) | O(n) | O(1) |
-| 56  | 0015 | 3sum              | Medium     | [Python](./medium/0015_3Sum/three_sum.py)                    | O(n^2) | O(1) |
-| 57  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
-| 58  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
-| 59  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
-| 60  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
-| 61  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
-| 62  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
-| 63  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
-| 64  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
-| 65  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 25  | 0232 | Implement Queue Using Stacks | Easy       | [Python](./easy/0232_implement_queue_using_stacks/queue_using_stacks.py) | O(1) | O(n) |
+| 26  | 0234 | Palindrome Linked List | Easy       | [Python](./easy/0234_palindrome_linked_list/palindrome_linked_list.py) | O(n) | O(1) |
+| 27  | 0242 | Valid Anagram     | Easy       | [Python](./easy/0242_valid_anagram/valid_anagram.py)         | O(n) | O(1) |
+| 28  | 0258 | Add Digits        | Easy       | [Python](./easy/0258_add_digits/add_digits.py)               | O(1) | O(1) |
+| 29  | 0268 | Missing Number    | Easy       | [Python](./easy/0268_missing_number/missing_number.py)       | O(n) | O(1) |
+| 30  | 0278 | First Bad Version | Easy       | [Python](./easy/0278_first_bad_version/first_bad_version.py) | O(log n) | O(1) |
+| 31  | 0283 | Move Zeroes       | Easy       | [Python](./easy/0283_move_zeroes/move_zeroes.py)             | O(n) | O(1) |
+| 32  | 0303 | Range Sum Query Immutable | Easy       | [Python](./easy/0303_range_sum_query_immutable/range_sum_query_immutable.py) | O(n) | O(n) |
+| 33  | 0326 | Power Of Three    | Easy       | [Python](./easy/0326_power_of_three/power_of_three.py)       | O(1) | O(1) |
+| 34  | 0344 | Reverse String    | Easy       | [Python](./easy/0344_reverse_string/reverse_string.py)       | O(n) | O(1) |
+| 35  | 0350 | Intersection Of Two Arrays Ii | Easy       | [Python](./easy/0350_intersection_of_two_arrays_ii/intersection_of_two_arrays_ii.py) | O(m + n) | O(min(m, n) |
+| 36  | 0374 | Guess Number Higher Or Lower | Easy       | [Python](./easy/0374_guess_number_higher_or_lower/guess_number_higher_or_lower.py) | O(log n) | O(1) |
+| 37  | 0383 | Ransom Note       | Easy       | [Python](./easy/0383_ransom_note/ransom_note.py)             | O(m + n) | O(1) |
+| 38  | 0389 | Find The Difference | Easy       | [Python](./easy/0389_find_the_difference/find_the_difference.py) | O(n) | O(1) |
+| 39  | 0401 | Binary Watch      | Easy       | [Python](./easy/0401_binary_watch/binary_watch.py)           | O(720) | O(1) |
+| 40  | 0404 | Sum Of Left Leaves | Easy       | [Python](./easy/0404_sum_of_left_leaves/sum_of_left_leaves.py) | O(n) | O(h) |
+| 41  | 0409 | Longest Palindrome | Easy       | [Python](./easy/0409_longest_palindrome/longest_palindrome.py) | O(n) | O(1) |
+| 42  | 0412 | Fizz Buzz         | Easy       | [Python](./easy/0412_fizz_buzz/fizz_buzz.py)                 | O(n) | O(n) |
+| 43  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/test_find_disappeared_numbers.py) | O(?) | O(?) |
+| 44  | 0461 | Hamming Distance  | Easy       | [Python](./easy/0461_hamming_distance/hamming_distance.py)   | O(1) | O(1) |
+| 45  | 0463 | Island Perimeter  | Easy       | [Python](./easy/0463_island_perimeter/island_perimeter.py)   | O(m * n) | O(1) |
+| 46  | 0496 | Next Greater Element I | Easy       | [Python](./easy/0496_next_greater_element_i/next_greater_element.py) | O(m + n) | O(n) |
+| 47  | 0506 | Relative Ranks    | Easy       | [Python](./easy/0506_relative_ranks/relative_ranks.py)       | O(n log n) | O(n) |
+| 48  | 0509 | Fibonacci Number  | Easy       | [Python](./easy/0509_fibonacci_number/fibonacci_number.py)   | O(n) | O(1) |
+| 49  | 0541 | Reverse String Ii | Easy       | [Python](./easy/0541_reverse_string_ii/reverse_string_ii.py) | O(n) | O(n) |
+| 50  | 0543 | Diameter Of Binary Tree | Easy       | [Python](./easy/0543_diameter_of_binary_tree/diameter_of_binary_tree.py) | O(n) | O(h) |
+| 51  | 0680 | Valid Palindrome Ii | Easy       | [Python](./easy/0680_valid_palindrome_ii/valid_palindrome_ii.py) | O(n) | O(1) |
+| 52  | 0704 | Binary Search     | Easy       | [Python](./easy/0704_binary_search/binary_search.py)         | O(log n) | O(1) |
+| 53  | 0002 | Add Two Numbers   | Medium     | [Python](./medium/0002_add_two_numbers/add_two_numbers.py)   | O(max(m, n) | O(max(m, n) |
+| 54  | 0003 | Longest Substring Without Repeating Characters | Medium     | [Python](./medium/0003_longest_substring_without_repeating_characters/longest_substring_without_repeating.py) | O(n) | O(k) |
+| 55  | 0005 | Longest Palindromic Substring | Medium     | [Python](./medium/0005_longest_palindromic_substring/longest_palindromic_substring.py) | O(n^2) | O(1) |
+| 56  | 0011 | Container With Most Water | Medium     | [Python](./medium/0011_container_with_most_water/container_with_most_water.py) | O(n) | O(1) |
+| 57  | 0015 | 3sum              | Medium     | [Python](./medium/0015_3Sum/three_sum.py)                    | O(n^2) | O(1) |
+| 58  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
+| 59  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
+| 60  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
+| 61  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
+| 62  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
+| 63  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
+| 64  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
+| 65  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
+| 66  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
