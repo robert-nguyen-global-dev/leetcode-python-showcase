@@ -95,9 +95,17 @@ def format_title(folder_name: str) -> str:
 
 def get_solution_filename(folder_path: Path) -> str:
     folder_name = folder_path.name
+
+    candidates = []
     for file in folder_path.iterdir():
-        if file.suffix == ".py" and file.stem in folder_name:
-            return file.name
+        if file.suffix == ".py" and not file.stem.startswith("test"):
+            if file.stem in folder_name:
+                return file.name
+            candidates.append(file.name)
+
+    if candidates:
+        return candidates[0]
+
     for file in folder_path.iterdir():
         if file.suffix == ".py":
             return file.name
