@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-70-brightgreen)
+![Solved](https://img.shields.io/badge/solved-71-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 15 / 50 ✅
+- Medium: 16 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -98,16 +98,17 @@ Below are real-time progress and build status for this repo.
 | 58  | 0005 | Longest Palindromic Substring | Medium     | [Python](./medium/0005_longest_palindromic_substring/longest_palindromic_substring.py) | O(n^2) | O(1) |
 | 59  | 0011 | Container With Most Water | Medium     | [Python](./medium/0011_container_with_most_water/container_with_most_water.py) | O(n) | O(1) |
 | 60  | 0015 | 3sum              | Medium     | [Python](./medium/0015_3Sum/three_sum.py)                    | O(n^2) | O(1) |
-| 61  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
-| 62  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
-| 63  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
-| 64  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
-| 65  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
-| 66  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
-| 67  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
-| 68  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
-| 69  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
-| 70  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 61  | 0016 | 3sum Closest      | Medium     | [Python](./medium/0016_3Sum_closest/test_three_sum_closest.py) | O(?) | O(?) |
+| 62  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
+| 63  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
+| 64  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
+| 65  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
+| 66  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
+| 67  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
+| 68  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
+| 69  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
+| 70  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 71  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
