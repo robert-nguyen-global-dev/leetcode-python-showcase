@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-71-brightgreen)
+![Solved](https://img.shields.io/badge/solved-72-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 16 / 50 ✅
+- Medium: 17 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -83,7 +83,7 @@ Below are real-time progress and build status for this repo.
 | 43  | 0404 | Sum Of Left Leaves | Easy       | [Python](./easy/0404_sum_of_left_leaves/sum_of_left_leaves.py) | O(n) | O(h) |
 | 44  | 0409 | Longest Palindrome | Easy       | [Python](./easy/0409_longest_palindrome/longest_palindrome.py) | O(n) | O(1) |
 | 45  | 0412 | Fizz Buzz         | Easy       | [Python](./easy/0412_fizz_buzz/fizz_buzz.py)                 | O(n) | O(n) |
-| 46  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/test_find_disappeared_numbers.py) | O(?) | O(?) |
+| 46  | 0448 | Find All Numbers Disappeared In An Array | Easy       | [Python](./easy/0448_find_all_numbers_disappeared_in_an_array/find_disappeared_numbers.py) | O(n) | O(1) |
 | 47  | 0461 | Hamming Distance  | Easy       | [Python](./easy/0461_hamming_distance/hamming_distance.py)   | O(1) | O(1) |
 | 48  | 0463 | Island Perimeter  | Easy       | [Python](./easy/0463_island_perimeter/island_perimeter.py)   | O(m * n) | O(1) |
 | 49  | 0496 | Next Greater Element I | Easy       | [Python](./easy/0496_next_greater_element_i/next_greater_element.py) | O(m + n) | O(n) |
@@ -98,7 +98,7 @@ Below are real-time progress and build status for this repo.
 | 58  | 0005 | Longest Palindromic Substring | Medium     | [Python](./medium/0005_longest_palindromic_substring/longest_palindromic_substring.py) | O(n^2) | O(1) |
 | 59  | 0011 | Container With Most Water | Medium     | [Python](./medium/0011_container_with_most_water/container_with_most_water.py) | O(n) | O(1) |
 | 60  | 0015 | 3sum              | Medium     | [Python](./medium/0015_3Sum/three_sum.py)                    | O(n^2) | O(1) |
-| 61  | 0016 | 3sum Closest      | Medium     | [Python](./medium/0016_3Sum_closest/test_three_sum_closest.py) | O(?) | O(?) |
+| 61  | 0016 | 3sum Closest      | Medium     | [Python](./medium/0016_3Sum_closest/three_sum_closest.py)    | O(n^2) | O(1) |
 | 62  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
 | 63  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
 | 64  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
@@ -108,7 +108,8 @@ Below are real-time progress and build status for this repo.
 | 68  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
 | 69  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
 | 70  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
-| 71  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 71  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 72  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
