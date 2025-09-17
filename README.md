@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-72-brightgreen)
+![Solved](https://img.shields.io/badge/solved-73-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 17 / 50 ✅
+- Medium: 18 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -110,6 +110,7 @@ Below are real-time progress and build status for this repo.
 | 70  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 | 71  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
 | 72  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 73  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
