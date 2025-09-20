@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-75-brightgreen)
+![Solved](https://img.shields.io/badge/solved-76-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 20 / 50 ✅
+- Medium: 21 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -109,10 +109,11 @@ Below are real-time progress and build status for this repo.
 | 69  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
 | 70  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
 | 71  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
-| 72  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
-| 73  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 74  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 75  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 72  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
+| 73  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 74  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 75  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 76  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
