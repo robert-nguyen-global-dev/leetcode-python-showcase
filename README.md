@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-76-brightgreen)
+![Solved](https://img.shields.io/badge/solved-77-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 21 / 50 ✅
+- Medium: 22 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -101,19 +101,20 @@ Below are real-time progress and build status for this repo.
 | 61  | 0016 | 3sum Closest      | Medium     | [Python](./medium/0016_3Sum_closest/three_sum_closest.py)    | O(n^2) | O(1) |
 | 62  | 0017 | Letter Combinations Of A Phone Number | Medium     | [Python](./medium/0017_letter_combinations_of_a_phone_number/letter_combinations.py) | O(3^N * 4^M) | O(n) |
 | 63  | 0019 | Remove Nth Node From End Of List | Medium     | [Python](./medium/0019_remove_nth_node_from_end_of_list/remove_nth_node.py) | O(n) | O(1) |
-| 64  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
-| 65  | 0034 | Find First And Last Position Of Element In Sorted Array | Medium     | [Python](./medium/0034_find_first_and_last_position_of_element_in_sorted_array/search_range.py) | O(log n) | O(1) |
-| 66  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
-| 67  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
-| 68  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
-| 69  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
-| 70  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
-| 71  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
-| 72  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
-| 73  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
-| 74  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 75  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 76  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 64  | 0022 | Generate Parentheses | Medium     | [Python](./medium/0022_generate_parentheses/generate_parentheses.py) | O(4^n / sqrt(n) | O(n) |
+| 65  | 0033 | Search In Rotated Sorted Array | Medium     | [Python](./medium/0033_search_in_rotated_sorted_array/search_in_rotated_sorted_array.py) | O(log n) | O(1) |
+| 66  | 0034 | Find First And Last Position Of Element In Sorted Array | Medium     | [Python](./medium/0034_find_first_and_last_position_of_element_in_sorted_array/search_range.py) | O(log n) | O(1) |
+| 67  | 0036 | Valid Sudoku      | Medium     | [Python](./medium/0036_valid_sudoku/valid_sudoku.py)         | O(1) | O(1) |
+| 68  | 0039 | Combination Sum   | Medium     | [Python](./medium/0039_combination_sum/combination_sum.py)   | O(N^(T/M) | O(T/M) |
+| 69  | 0040 | Combination Sum Ii | Medium     | [Python](./medium/0040_combination_sum_ii/combination_sum_ii.py) | O(2^N) | O(N) |
+| 70  | 0045 | Jump Game Ii      | Medium     | [Python](./medium/0045_jump_game_ii/jump_game_ii.py)         | O(n) | O(1) |
+| 71  | 0046 | Permutations      | Medium     | [Python](./medium/0046_permutations/permutations.py)         | O(n * n!) | O(n) |
+| 72  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
+| 73  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
+| 74  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 75  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 76  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 77  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
