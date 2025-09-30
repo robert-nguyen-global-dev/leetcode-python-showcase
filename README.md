@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-85-brightgreen)
+![Solved](https://img.shields.io/badge/solved-86-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 30 / 50 ✅
+- Medium: 31 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -113,16 +113,17 @@ Below are real-time progress and build status for this repo.
 | 73  | 0053 | Maximum Subarray  | Medium     | [Python](./medium/0053_maximum_subarray/maximum_subarray.py) | O(n) | O(1) |
 | 74  | 0074 | Search A 2d Matrix | Medium     | [Python](./medium/0074_search_a_2D_matrix/search_matrix.py)  | O(log(m*n) | O(1) |
 | 75  | 0078 | Subsets           | Medium     | [Python](./medium/0078_subsets/subsets.py)                   | O(n * 2^n) | O(n) |
-| 76  | 0090 | Subsets Ii        | Medium     | [Python](./medium/0090_subsets_ii/subsets_ii.py)             | O(2^n) | O(n) |
-| 77  | 0092 | Reverse Linked List Ii | Medium     | [Python](./medium/0092_reverse_linked_list_ii/reverse_linked_list_ii.py) | O(n) | O(1) |
-| 78  | 0138 | Copy List With Random Pointer | Medium     | [Python](./medium/0138_copy_list_with_random_pointer/copy_list_with_random_pointer.py) | O(n) | O(1) |
-| 79  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
-| 80  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
-| 81  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
-| 82  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
-| 83  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 84  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 85  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 76  | 0079 | Word Search       | Medium     | [Python](./medium/0079_word_search/word_search.py)           | O(N * 3^L) | O(L) |
+| 77  | 0090 | Subsets Ii        | Medium     | [Python](./medium/0090_subsets_ii/subsets_ii.py)             | O(2^n) | O(n) |
+| 78  | 0092 | Reverse Linked List Ii | Medium     | [Python](./medium/0092_reverse_linked_list_ii/reverse_linked_list_ii.py) | O(n) | O(1) |
+| 79  | 0138 | Copy List With Random Pointer | Medium     | [Python](./medium/0138_copy_list_with_random_pointer/copy_list_with_random_pointer.py) | O(n) | O(1) |
+| 80  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
+| 81  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
+| 82  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
+| 83  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 84  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 85  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 86  | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
