@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-100-brightgreen)
+![Solved](https://img.shields.io/badge/solved-101-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 45 / 50 ✅
+- Medium: 46 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -118,26 +118,27 @@ Below are real-time progress and build status for this repo.
 | 78  | 0092 | Reverse Linked List Ii | Medium     | [Python](./medium/0092_reverse_linked_list_ii/reverse_linked_list_ii.py) | O(n) | O(1) |
 | 79  | 0102 | Binary Tree Level Order Traversal | Medium     | [Python](./medium/0102_binary_tree_level_order_traversal/binary_tree_level_order.py) | O(n) | O(n) |
 | 80  | 0105 | Construct Binary Tree From Preorder And Inorder Traversal | Medium     | [Python](./medium/0105_construct_binary_tree_from_preorder_and_inorder_traversal/construct_tree_pre_inorder.py) | O(n) | O(n) |
-| 81  | 0114 | Flatten Binary Tree To Linked List | Medium     | [Python](./medium/0114_flatten_binary_tree_to_linked_list/flatten_binary_tree.py) | O(n) | O(h) |
-| 82  | 0133 | Clone Graph       | Medium     | [Python](./medium/0133_clone_graph/clone_graph.py)           | O(V + E) | O(V) |
-| 83  | 0138 | Copy List With Random Pointer | Medium     | [Python](./medium/0138_copy_list_with_random_pointer/copy_list_with_random_pointer.py) | O(n) | O(1) |
-| 84  | 0142 | Linked List Cycle Ii | Medium     | [Python](./medium/0142_linked_list_cycle_ii/linked_list_cycle_ii.py) | O(n) | O(1) |
-| 85  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
-| 86  | 0150 | Evaluate Reverse Polish Notation | Medium     | [Python](./medium/0150_evaluate_reverse_polish_notation/eval_rpn.py) | O(n) | O(n) |
-| 87  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
-| 88  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
-| 89  | 0200 | Number Of Islands | Medium     | [Python](./medium/0200_number_of_islands/number_of_islands.py) | O(m * n) | O(m * n) |
-| 90  | 0207 | Course Schedule   | Medium     | [Python](./medium/0207_course_schedule/course_schedule.py)   | O(V + E) | O(V + E) |
-| 91  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
-| 92  | 0210 | Course Schedule Ii | Medium     | [Python](./medium/0210_course_schedule_ii/course_schedule_ii.py) | O(V + E) | O(V + E) |
-| 93  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
-| 94  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
-| 95  | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
-| 96  | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
-| 97  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 98  | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
-| 99  | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 100 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 81  | 0113 | Path Sum Ii       | Medium     | [Python](./medium/0113_path_sum_ii/path_sum_ii.py)           | O(n) | O(h) |
+| 82  | 0114 | Flatten Binary Tree To Linked List | Medium     | [Python](./medium/0114_flatten_binary_tree_to_linked_list/flatten_binary_tree.py) | O(n) | O(h) |
+| 83  | 0133 | Clone Graph       | Medium     | [Python](./medium/0133_clone_graph/clone_graph.py)           | O(V + E) | O(V) |
+| 84  | 0138 | Copy List With Random Pointer | Medium     | [Python](./medium/0138_copy_list_with_random_pointer/copy_list_with_random_pointer.py) | O(n) | O(1) |
+| 85  | 0142 | Linked List Cycle Ii | Medium     | [Python](./medium/0142_linked_list_cycle_ii/linked_list_cycle_ii.py) | O(n) | O(1) |
+| 86  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
+| 87  | 0150 | Evaluate Reverse Polish Notation | Medium     | [Python](./medium/0150_evaluate_reverse_polish_notation/eval_rpn.py) | O(n) | O(n) |
+| 88  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
+| 89  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
+| 90  | 0200 | Number Of Islands | Medium     | [Python](./medium/0200_number_of_islands/number_of_islands.py) | O(m * n) | O(m * n) |
+| 91  | 0207 | Course Schedule   | Medium     | [Python](./medium/0207_course_schedule/course_schedule.py)   | O(V + E) | O(V + E) |
+| 92  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 93  | 0210 | Course Schedule Ii | Medium     | [Python](./medium/0210_course_schedule_ii/course_schedule_ii.py) | O(V + E) | O(V + E) |
+| 94  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
+| 95  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
+| 96  | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
+| 97  | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
+| 98  | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 99  | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
+| 100 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 101 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
