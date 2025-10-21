@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-106-brightgreen)
+![Solved](https://img.shields.io/badge/solved-107-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 51 / 50 ✅
+- Medium: 52 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -133,17 +133,18 @@ Below are real-time progress and build status for this repo.
 | 93  | 0207 | Course Schedule   | Medium     | [Python](./medium/0207_course_schedule/course_schedule.py)   | O(V + E) | O(V + E) |
 | 94  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
 | 95  | 0210 | Course Schedule Ii | Medium     | [Python](./medium/0210_course_schedule_ii/course_schedule_ii.py) | O(V + E) | O(V + E) |
-| 96  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
-| 97  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
-| 98  | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
-| 99  | 0300 | Longest Increasing Subsequence | Medium     | [Python](./medium/0300_longest_increasing_subsequence/longest_increasing_subsequence.py) | O(n log n) | O(n) |
-| 100 | 0322 | Coin Change       | Medium     | [Python](./medium/0322_coin_change/coin_change.py)           | O(amount × n) | O(amount) |
-| 101 | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
-| 102 | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 103 | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
-| 104 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 105 | 0518 | Coin Change Ii    | Medium     | [Python](./medium/0518_coin_change_ii/coin_change_ii.py)     | O(amount × n) | O(amount) |
-| 106 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 96  | 0218 | House Robber Ii   | Medium     | [Python](./medium/0218_house_robber_ii/house_robber_ii.py)   | O(n) | O(1) |
+| 97  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
+| 98  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
+| 99  | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
+| 100 | 0300 | Longest Increasing Subsequence | Medium     | [Python](./medium/0300_longest_increasing_subsequence/longest_increasing_subsequence.py) | O(n log n) | O(n) |
+| 101 | 0322 | Coin Change       | Medium     | [Python](./medium/0322_coin_change/coin_change.py)           | O(amount × n) | O(amount) |
+| 102 | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
+| 103 | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 104 | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
+| 105 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 106 | 0518 | Coin Change Ii    | Medium     | [Python](./medium/0518_coin_change_ii/coin_change_ii.py)     | O(amount × n) | O(amount) |
+| 107 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
