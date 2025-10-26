@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-111-brightgreen)
+![Solved](https://img.shields.io/badge/solved-112-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 56 / 50 ✅
+- Medium: 57 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -122,33 +122,34 @@ Below are real-time progress and build status for this repo.
 | 82  | 0114 | Flatten Binary Tree To Linked List | Medium     | [Python](./medium/0114_flatten_binary_tree_to_linked_list/flatten_binary_tree.py) | O(n) | O(h) |
 | 83  | 0133 | Clone Graph       | Medium     | [Python](./medium/0133_clone_graph/clone_graph.py)           | O(V + E) | O(V) |
 | 84  | 0138 | Copy List With Random Pointer | Medium     | [Python](./medium/0138_copy_list_with_random_pointer/copy_list_with_random_pointer.py) | O(n) | O(1) |
-| 85  | 0142 | Linked List Cycle Ii | Medium     | [Python](./medium/0142_linked_list_cycle_ii/linked_list_cycle_ii.py) | O(n) | O(1) |
-| 86  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
-| 87  | 0150 | Evaluate Reverse Polish Notation | Medium     | [Python](./medium/0150_evaluate_reverse_polish_notation/eval_rpn.py) | O(n) | O(n) |
-| 88  | 0152 | Maximum Product Subarray | Medium     | [Python](./medium/0152_maximum_product_subarray/maximum_product_subarray.py) | O(n) | O(1) |
-| 89  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
-| 90  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
-| 91  | 0198 | House Robber      | Medium     | [Python](./medium/0198_house_robber/house_robber.py)         | O(n) | O(1) |
-| 92  | 0200 | Number Of Islands | Medium     | [Python](./medium/0200_number_of_islands/number_of_islands.py) | O(m * n) | O(m * n) |
-| 93  | 0207 | Course Schedule   | Medium     | [Python](./medium/0207_course_schedule/course_schedule.py)   | O(V + E) | O(V + E) |
-| 94  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
-| 95  | 0210 | Course Schedule Ii | Medium     | [Python](./medium/0210_course_schedule_ii/course_schedule_ii.py) | O(V + E) | O(V + E) |
-| 96  | 0218 | House Robber Ii   | Medium     | [Python](./medium/0218_house_robber_ii/house_robber_ii.py)   | O(n) | O(1) |
-| 97  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
-| 98  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
-| 99  | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
-| 100 | 0279 | Perfect Squares   | Medium     | [Python](./medium/0279_perfect_squares/perfect_squares.py)   | O(n * sqrt(n) | O(n) |
-| 101 | 0300 | Longest Increasing Subsequence | Medium     | [Python](./medium/0300_longest_increasing_subsequence/longest_increasing_subsequence.py) | O(n log n) | O(n) |
-| 102 | 0309 | Best Time To Buy And Sell Stock With Cooldown | Medium     | [Python](./medium/0309_best_time_to_buy_and_sell_stock_with_cooldown/best_time_to_buy_and_sell_stock_with_cooldown.py) | O(n) | O(1) |
-| 103 | 0322 | Coin Change       | Medium     | [Python](./medium/0322_coin_change/coin_change.py)           | O(amount × n) | O(amount) |
-| 104 | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
-| 105 | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
-| 106 | 0377 | Combination Sum Iv | Medium     | [Python](./medium/0377_combination_sum_iv/combination_sum_iv.py) | O(n * target) | O(target) |
-| 107 | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
-| 108 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
-| 109 | 0494 | Target Sum        | Medium     | [Python](./medium/0494_target_sum/target_sum.py)             | O(n * sum(nums) | O(sum(nums) |
-| 110 | 0518 | Coin Change Ii    | Medium     | [Python](./medium/0518_coin_change_ii/coin_change_ii.py)     | O(amount × n) | O(amount) |
-| 111 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 85  | 0139 | Word Break        | Medium     | [Python](./medium/0139_word_break/word_break.py)             | O(n^2) | O(n) |
+| 86  | 0142 | Linked List Cycle Ii | Medium     | [Python](./medium/0142_linked_list_cycle_ii/linked_list_cycle_ii.py) | O(n) | O(1) |
+| 87  | 0148 | Sort List         | Medium     | [Python](./medium/0148_sort_list/sort_list.py)               | O(n log n) | O(log n) |
+| 88  | 0150 | Evaluate Reverse Polish Notation | Medium     | [Python](./medium/0150_evaluate_reverse_polish_notation/eval_rpn.py) | O(n) | O(n) |
+| 89  | 0152 | Maximum Product Subarray | Medium     | [Python](./medium/0152_maximum_product_subarray/maximum_product_subarray.py) | O(n) | O(1) |
+| 90  | 0153 | Find Minimum In Rotated Sorted Array | Medium     | [Python](./medium/0153_find_minimum_in_rotated_sorted_array/find_min_rotated.py) | O(log n) | O(1) |
+| 91  | 0162 | Find Peak Element | Medium     | [Python](./medium/0162_find_peak_element/find_peak_element.py) | O(log n) | O(1) |
+| 92  | 0198 | House Robber      | Medium     | [Python](./medium/0198_house_robber/house_robber.py)         | O(n) | O(1) |
+| 93  | 0200 | Number Of Islands | Medium     | [Python](./medium/0200_number_of_islands/number_of_islands.py) | O(m * n) | O(m * n) |
+| 94  | 0207 | Course Schedule   | Medium     | [Python](./medium/0207_course_schedule/course_schedule.py)   | O(V + E) | O(V + E) |
+| 95  | 0209 | Minimum Size Subarray Sum | Medium     | [Python](./medium/0209_minimum_size_subarray_sum/min_subarray_sum.py) | O(n) | O(1) |
+| 96  | 0210 | Course Schedule Ii | Medium     | [Python](./medium/0210_course_schedule_ii/course_schedule_ii.py) | O(V + E) | O(V + E) |
+| 97  | 0218 | House Robber Ii   | Medium     | [Python](./medium/0218_house_robber_ii/house_robber_ii.py)   | O(n) | O(1) |
+| 98  | 0227 | Basic Calculator Ii | Medium     | [Python](./medium/0227_basic_calculator_ii/basic_calculator_ii.py) | O(n) | O(n) |
+| 99  | 0230 | Kth Smallest Element In A Bst | Medium     | [Python](./medium/0230_kth_smallest_element_in_a_bst/kth_smallest_bst.py) | O(H + k) | O(H) |
+| 100 | 0236 | Lowest Common Ancestor Of A Binary Tree | Medium     | [Python](./medium/0236_lowest_common_ancestor_of_a_binary_tree/lowest_common_ancestor_bt.py) | O(n) | O(h) |
+| 101 | 0279 | Perfect Squares   | Medium     | [Python](./medium/0279_perfect_squares/perfect_squares.py)   | O(n * sqrt(n) | O(n) |
+| 102 | 0300 | Longest Increasing Subsequence | Medium     | [Python](./medium/0300_longest_increasing_subsequence/longest_increasing_subsequence.py) | O(n log n) | O(n) |
+| 103 | 0309 | Best Time To Buy And Sell Stock With Cooldown | Medium     | [Python](./medium/0309_best_time_to_buy_and_sell_stock_with_cooldown/best_time_to_buy_and_sell_stock_with_cooldown.py) | O(n) | O(1) |
+| 104 | 0322 | Coin Change       | Medium     | [Python](./medium/0322_coin_change/coin_change.py)           | O(amount × n) | O(amount) |
+| 105 | 0337 | House Robber Iii  | Medium     | [Python](./medium/0337_house_robber_iii/house_robber_iii.py) | O(n) | O(h) |
+| 106 | 0371 | Sum Of Two Integers | Medium     | [Python](./medium/0371_sum_of_two_integers/sum_of_two_integers.py) | O(1) | O(1) |
+| 107 | 0377 | Combination Sum Iv | Medium     | [Python](./medium/0377_combination_sum_iv/combination_sum_iv.py) | O(n * target) | O(target) |
+| 108 | 0394 | Decode String     | Medium     | [Python](./medium/0394_decode_string/decode_string.py)       | O(n) | O(n) |
+| 109 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
+| 110 | 0494 | Target Sum        | Medium     | [Python](./medium/0494_target_sum/target_sum.py)             | O(n * sum(nums) | O(sum(nums) |
+| 111 | 0518 | Coin Change Ii    | Medium     | [Python](./medium/0518_coin_change_ii/coin_change_ii.py)     | O(amount × n) | O(amount) |
+| 112 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
