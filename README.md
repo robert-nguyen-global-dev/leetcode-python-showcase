@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-113-brightgreen)
+![Solved](https://img.shields.io/badge/solved-114-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -32,7 +32,7 @@ Below are real-time progress and build status for this repo.
 
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
-- Medium: 58 / 50 ✅
+- Medium: 59 / 50 ✅
 - Hard: 0 / 50 🚧
 
 <!-- SOLUTION_TABLE_START -->
@@ -149,8 +149,9 @@ Below are real-time progress and build status for this repo.
 | 109 | 0438 | Find All Anagrams In A String | Medium     | [Python](./medium/0438_find_all_anagrams_in_a_string/find_all_anagrams.py) | O(n) | O(1) |
 | 110 | 0494 | Target Sum        | Medium     | [Python](./medium/0494_target_sum/target_sum.py)             | O(n * sum(nums) | O(sum(nums) |
 | 111 | 0518 | Coin Change Ii    | Medium     | [Python](./medium/0518_coin_change_ii/coin_change_ii.py)     | O(amount × n) | O(amount) |
-| 112 | 0560 | Subarray Sum Equals K | Medium     | [Python](./medium/0560_subarray_sum_equals_k/subarray_sum_equals_k.py) | O(n) | O(n) |
-| 113 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
+| 112 | 0523 | Continuous Subarray Sum | Medium     | [Python](./medium/0523_continuous_subarray_sum/continuous_subarray_sum.py) | O(n) | O(min(n, k) |
+| 113 | 0560 | Subarray Sum Equals K | Medium     | [Python](./medium/0560_subarray_sum_equals_k/subarray_sum_equals_k.py) | O(n) | O(n) |
+| 114 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
