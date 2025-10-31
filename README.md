@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-116-brightgreen)
+![Solved](https://img.shields.io/badge/solved-117-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 0 / 50 🚧
+- Hard: 1 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -154,6 +154,7 @@ Below are real-time progress and build status for this repo.
 | 114 | 0560 | Subarray Sum Equals K | Medium     | [Python](./medium/0560_subarray_sum_equals_k/subarray_sum_equals_k.py) | O(n) | O(n) |
 | 115 | 0567 | Permutation In String | Medium     | [Python](./medium/0567_permutation_in_string/permutation_in_string.py) | O(n) | O(1) |
 | 116 | 0739 | Daily Temperatures | Medium     | [Python](./medium/0739_daily_temperatures/daily_temperatures.py) | O(n) | O(n) |
+| 117 | 0042 | Trapping Rain Water | Hard       | [Python](./hard/0042_trapping_rain_water/trapping_rain_water.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
