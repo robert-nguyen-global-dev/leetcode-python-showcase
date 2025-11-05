@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-121-brightgreen)
+![Solved](https://img.shields.io/badge/solved-122-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 5 / 50 ✅
+- Hard: 6 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -159,6 +159,7 @@ Below are real-time progress and build status for this repo.
 | 119 | 0052 | N Queens Ii       | Hard       | [Python](./hard/0052_n_queens_ii/n_queens_ii.py)             | O(N!) | O(N) |
 | 120 | 0126 | Word Ladder Ii    | Hard       | [Python](./hard/0126_word_ladder_ii/word_ladder_ii.py)       | O(N * L) | O(N * L) |
 | 121 | 0127 | Word Ladder       | Hard       | [Python](./hard/0127_word_ladder/word_ladder.py)             | O(N * L) | O(N * L) |
+| 122 | 0212 | Word Search Ii    | Hard       | [Python](./hard/0212_word_search_ii/word_search_ii.py)       | O(M * N * 4^L) | O(K * L) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
