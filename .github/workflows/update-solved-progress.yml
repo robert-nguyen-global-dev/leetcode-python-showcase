@@ -39,19 +39,27 @@ jobs:
       env:
         GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
 
-    - name: Set Git identity
+    - name: Set Git identity and signing
       run: |
         git config user.name "Robert Nguyen"
         git config user.email "robert.nguyen.global.dev@gmail.com"
         git config user.signingkey ${{ secrets.GPG_KEY_ID }}
         git config commit.gpgSign true
+        git config gpg.program gpg
+        echo "test passphrase access"
+      env:
+        GPG_KEY_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
 
     - name: Commit and push if solved badge changed
       env:
         GPG_KEY_PASSPHRASE: ${{ secrets.GPG_KEY_PASSPHRASE }}
       run: |
         if [ -f .solved_progress_marker ]; then
-          git commit -S -am "docs(readme): auto-update solved problems progress to reflect new solved problems"
+          echo "$GPG_KEY_PASSPHRASE" | \
+            gpg --batch --yes --pinentry-mode loopback --passphrase-fd 0 \
+            -u ${{ secrets.GPG_KEY_ID }} \
+            --clearsign > /dev/null
+          git commit -S -am "docs(readme): auto-update solved problems progress"
           git push
         else
           echo "No solved badge change detected. Skipping commit."
