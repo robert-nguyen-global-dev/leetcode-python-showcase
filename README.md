@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-124-brightgreen)
+![Solved](https://img.shields.io/badge/solved-125-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 8 / 50 ✅
+- Hard: 9 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -162,6 +162,7 @@ Below are real-time progress and build status for this repo.
 | 122 | 0212 | Word Search Ii    | Hard       | [Python](./hard/0212_word_search_ii/word_search_ii.py)       | O(M * N * 4^L) | O(K * L) |
 | 123 | 0239 | Sliding Window Maximum | Hard       | [Python](./hard/0239_sliding_window_maximum/sliding_window_maximum.py) | O(n) | O(k) |
 | 124 | 0295 | Find Median From Data Stream | Hard       | [Python](./hard/0295_find_median_from_data_stream/find_median_from_data_stream.py) | O(log n) | O(n) |
+| 125 | 0297 | Serialize And Deserialize Binary Tree | Hard       | [Python](./hard/0297_serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.py) | O(n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
