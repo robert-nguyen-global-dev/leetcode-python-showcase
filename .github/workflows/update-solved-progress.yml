@@ -41,7 +41,7 @@ jobs:
 
     - name: Set Git identity and signing
       run: |
-        git config user.name "Robert Nguyen"
+        git config user.name "Robert Nguyen (Git signing key)"
         git config user.email "robert.nguyen.global.dev@gmail.com"
         git config user.signingkey ${{ secrets.GPG_KEY_ID }}
         git config commit.gpgSign true
