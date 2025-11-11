@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-127-brightgreen)
+![Solved](https://img.shields.io/badge/solved-128-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 11 / 50 ✅
+- Hard: 12 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -165,6 +165,7 @@ Below are real-time progress and build status for this repo.
 | 125 | 0297 | Serialize And Deserialize Binary Tree | Hard       | [Python](./hard/0297_serialize_and_deserialize_binary_tree/serialize_and_deserialize_binary_tree.py) | O(n) | O(n) |
 | 126 | 0315 | Count Of Smaller Numbers After Self | Hard       | [Python](./hard/0315_count_of_smaller_numbers_after_self/count_of_smaller_numbers_after_self.py) | O(n log n) | O(n) |
 | 127 | 0332 | Reconstruct Itinerary | Hard       | [Python](./hard/0332_reconstruct_itinerary/reconstruct_itinerary.py) | O(E log E) | O(E) |
+| 128 | 0630 | Course Schedule Iii | Hard       | [Python](./hard/0630_course_schedule_iii/course_schedule_iii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
