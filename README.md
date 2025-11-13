@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-129-brightgreen)
+![Solved](https://img.shields.io/badge/solved-130-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 13 / 50 ✅
+- Hard: 14 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -167,6 +167,7 @@ Below are real-time progress and build status for this repo.
 | 127 | 0332 | Reconstruct Itinerary | Hard       | [Python](./hard/0332_reconstruct_itinerary/reconstruct_itinerary.py) | O(E log E) | O(E) |
 | 128 | 0630 | Course Schedule Iii | Hard       | [Python](./hard/0630_course_schedule_iii/course_schedule_iii.py) | O(n log n) | O(n) |
 | 129 | 0679 | 24 Game           | Hard       | [Python](./hard/0679_24_game/game_24.py)                     | O(4^n * n!) | O(n) |
+| 130 | 0887 | Super Egg Drop    | Hard       | [Python](./hard/0887_super_egg_drop/super_egg_drop.py)       | O(k * log n) | O(k) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
