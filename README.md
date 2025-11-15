@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-131-brightgreen)
+![Solved](https://img.shields.io/badge/solved-132-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 15 / 50 ✅
+- Hard: 16 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -169,6 +169,7 @@ Below are real-time progress and build status for this repo.
 | 129 | 0679 | 24 Game           | Hard       | [Python](./hard/0679_24_game/game_24.py)                     | O(4^n * n!) | O(n) |
 | 130 | 0887 | Super Egg Drop    | Hard       | [Python](./hard/0887_super_egg_drop/super_egg_drop.py)       | O(k * log n) | O(k) |
 | 131 | 0968 | Binary Tree Cameras | Hard       | [Python](./hard/0968_binary_tree_cameras/binary_tree_cameras.py) | O(n) | O(h) |
+| 132 | 1220 | Count Vowel Permutation | Hard       | [Python](./hard/1220_count_vowel_permutation/count_vowel_permutation.py) | O(n) | O(1) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
