@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-138-brightgreen)
+![Solved](https://img.shields.io/badge/solved-139-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 22 / 50 ✅
+- Hard: 23 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -176,6 +176,7 @@ Below are real-time progress and build status for this repo.
 | 136 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
 | 137 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
 | 138 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
+| 139 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
