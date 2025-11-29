@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-146-brightgreen)
+![Solved](https://img.shields.io/badge/solved-147-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 30 / 50 ✅
+- Hard: 31 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -170,20 +170,21 @@ Below are real-time progress and build status for this repo.
 | 130 | 0315 | Count Of Smaller Numbers After Self | Hard       | [Python](./hard/0315_count_of_smaller_numbers_after_self/count_of_smaller_numbers_after_self.py) | O(n log n) | O(n) |
 | 131 | 0329 | Longest Increasing Path In A Matrix | Hard       | [Python](./hard/0329_longest_increasing_path_in_a_matrix/longest_increasing_path_in_a_matrix.py) | O(m * n) | O(m * n) |
 | 132 | 0332 | Reconstruct Itinerary | Hard       | [Python](./hard/0332_reconstruct_itinerary/reconstruct_itinerary.py) | O(E log E) | O(E) |
-| 133 | 0630 | Course Schedule Iii | Hard       | [Python](./hard/0630_course_schedule_iii/course_schedule_iii.py) | O(n log n) | O(n) |
-| 134 | 0679 | 24 Game           | Hard       | [Python](./hard/0679_24_game/game_24.py)                     | O(4^n * n!) | O(n) |
-| 135 | 0887 | Super Egg Drop    | Hard       | [Python](./hard/0887_super_egg_drop/super_egg_drop.py)       | O(k * log n) | O(k) |
-| 136 | 0968 | Binary Tree Cameras | Hard       | [Python](./hard/0968_binary_tree_cameras/binary_tree_cameras.py) | O(n) | O(h) |
-| 137 | 1220 | Count Vowel Permutation | Hard       | [Python](./hard/1220_count_vowel_permutation/count_vowel_permutation.py) | O(n) | O(1) |
-| 138 | 1340 | Jump Game V       | Hard       | [Python](./hard/1340_jump_game_v/jump_game_v.py)             | O(n * d) | O(n) |
-| 139 | 1345 | Jump Game Iv      | Hard       | [Python](./hard/1345_jump_game_iv/jump_game_iv.py)           | O(n) | O(n) |
-| 140 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
-| 141 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
-| 142 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
-| 143 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
-| 144 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
-| 145 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
-| 146 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
+| 133 | 0354 | Russian Doll Envelopes | Hard       | [Python](./hard/0354_russian_doll_envelopes/russian_doll_envelopes.py) | O(n log n) | O(n) |
+| 134 | 0630 | Course Schedule Iii | Hard       | [Python](./hard/0630_course_schedule_iii/course_schedule_iii.py) | O(n log n) | O(n) |
+| 135 | 0679 | 24 Game           | Hard       | [Python](./hard/0679_24_game/game_24.py)                     | O(4^n * n!) | O(n) |
+| 136 | 0887 | Super Egg Drop    | Hard       | [Python](./hard/0887_super_egg_drop/super_egg_drop.py)       | O(k * log n) | O(k) |
+| 137 | 0968 | Binary Tree Cameras | Hard       | [Python](./hard/0968_binary_tree_cameras/binary_tree_cameras.py) | O(n) | O(h) |
+| 138 | 1220 | Count Vowel Permutation | Hard       | [Python](./hard/1220_count_vowel_permutation/count_vowel_permutation.py) | O(n) | O(1) |
+| 139 | 1340 | Jump Game V       | Hard       | [Python](./hard/1340_jump_game_v/jump_game_v.py)             | O(n * d) | O(n) |
+| 140 | 1345 | Jump Game Iv      | Hard       | [Python](./hard/1345_jump_game_iv/jump_game_iv.py)           | O(n) | O(n) |
+| 141 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
+| 142 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
+| 143 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
+| 144 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
+| 145 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
+| 146 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
+| 147 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
