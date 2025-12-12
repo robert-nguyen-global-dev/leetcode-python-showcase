@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-158-brightgreen)
+![Solved](https://img.shields.io/badge/solved-159-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 42 / 50 ✅
+- Hard: 43 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -187,15 +187,16 @@ Below are real-time progress and build status for this repo.
 | 147 | 0968 | Binary Tree Cameras | Hard       | [Python](./hard/0968_binary_tree_cameras/binary_tree_cameras.py) | O(n) | O(h) |
 | 148 | 1095 | Find In Mountain Array | Hard       | [Python](./hard/1095_find_in_mountain_array/find_in_mountain_array.py) | O(log N) | O(1) |
 | 149 | 1220 | Count Vowel Permutation | Hard       | [Python](./hard/1220_count_vowel_permutation/count_vowel_permutation.py) | O(n) | O(1) |
-| 150 | 1340 | Jump Game V       | Hard       | [Python](./hard/1340_jump_game_v/jump_game_v.py)             | O(n * d) | O(n) |
-| 151 | 1345 | Jump Game Iv      | Hard       | [Python](./hard/1345_jump_game_iv/jump_game_iv.py)           | O(n) | O(n) |
-| 152 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
-| 153 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
-| 154 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
-| 155 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
-| 156 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
-| 157 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
-| 158 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
+| 150 | 1240 | Tiling A Rectangle With The Fewest Squares | Hard       | [Python](./hard/1240_tiling_a_rectangle_with_the_fewest_squares/tiling_a_rectangle_with_the_fewest_squares.py) | O(2^[n*m]) | O(m) |
+| 151 | 1340 | Jump Game V       | Hard       | [Python](./hard/1340_jump_game_v/jump_game_v.py)             | O(n * d) | O(n) |
+| 152 | 1345 | Jump Game Iv      | Hard       | [Python](./hard/1345_jump_game_iv/jump_game_iv.py)           | O(n) | O(n) |
+| 153 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
+| 154 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
+| 155 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
+| 156 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
+| 157 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
+| 158 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
+| 159 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
