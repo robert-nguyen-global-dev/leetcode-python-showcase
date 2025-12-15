@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-161-brightgreen)
+![Solved](https://img.shields.io/badge/solved-162-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 45 / 50 ✅
+- Hard: 46 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -192,13 +192,14 @@ Below are real-time progress and build status for this repo.
 | 152 | 1345 | Jump Game Iv      | Hard       | [Python](./hard/1345_jump_game_iv/jump_game_iv.py)           | O(n) | O(n) |
 | 153 | 1359 | Count All Valid Pickup And Delivery Options | Hard       | [Python](./hard/1359_count_all_valid_pickup_and_delivery_options/count_all_valid_pickup_and_delivery_options.py) | O(n) | O(1) |
 | 154 | 1402 | Reducing Dishes   | Hard       | [Python](./hard/1402_reducing_dishes/reducing_dishes.py)     | O(n log n) | O(1) |
-| 155 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
-| 156 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
-| 157 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
-| 158 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
-| 159 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
-| 160 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
-| 161 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
+| 155 | 1444 | Number Of Ways Of Cutting A Pizza | Hard       | [Python](./hard/1444_number_of_ways_of_cutting_a_pizza/number_of_ways_of_cutting_a_pizza.py) | O(k * m * n * [m + n]) | O(k * m * n) |
+| 156 | 1463 | Cherry Pickup Ii  | Hard       | [Python](./hard/1463_cherry_pickup_ii/cherry_pickup_ii.py)   | O(R * C^2 * 9) | O(C^2) |
+| 157 | 1499 | Max Value Of Equation | Hard       | [Python](./hard/1499_max_value_of_equation/max_value_of_equation.py) | O(n) | O(n) |
+| 158 | 1584 | Min Cost To Connect All Points | Hard       | [Python](./hard/1584_min_cost_to_connect_all_points/min_cost_to_connect_all_points.py) | O(n^2) | O(n) |
+| 159 | 1642 | Furthest Building You Can Reach | Hard       | [Python](./hard/1642_furthest_building_you_can_reach/furthest_building_you_can_reach.py) | O(n log n) | O(n) |
+| 160 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
+| 161 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
+| 162 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
