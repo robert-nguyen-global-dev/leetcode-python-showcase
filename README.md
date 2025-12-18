@@ -23,7 +23,7 @@ This repository showcases **clean, readable Python solutions** to selected LeetC
 
 ## 📈 Progress Tracker
 Below are real-time progress and build status for this repo.  
-![Solved](https://img.shields.io/badge/solved-164-brightgreen)
+![Solved](https://img.shields.io/badge/solved-165-brightgreen)
 ![Build](https://github.com/robert-nguyen-global-dev/leetcode-python-showcase/actions/workflows/python-tests.yml/badge.svg)  
 🎯 Target:
 - [ ] 50 Easy
@@ -33,7 +33,7 @@ Below are real-time progress and build status for this repo.
 ✅ Completed Problems:
 - Easy: 55 / 50 ✅
 - Medium: 61 / 50 ✅
-- Hard: 48 / 50 ✅
+- Hard: 49 / 50 ✅
 
 <!-- SOLUTION_TABLE_START -->
 | No. | ID   | Title             | Difficulty | Solution | Time | Space |
@@ -201,7 +201,8 @@ Below are real-time progress and build status for this repo.
 | 161 | 1707 | Maximum Xor With An Element From Array | Hard       | [Python](./hard/1707_maximum_xor_with_an_element_from_array/maximum_xor_with_an_element_from_array.py) | O([N + Q] * B + N log N + Q log Q) | O(N * B) |
 | 162 | 1851 | Minimum Interval To Include Each Query | Hard       | [Python](./hard/1851_minimum_interval_to_include_each_query/minimum_interval_to_include_each_query.py) | O([n + q] log n) | O(n) |
 | 163 | 2246 | Longest Path With Different Adjacent Characters | Hard       | [Python](./hard/2246_longest_path_with_different_adjacent_characters/longest_path_with_different_adjacent_characters.py) | O(n) | O(n) |
-| 164 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
+| 164 | 2392 | Build A Matrix With Conditions | Hard       | [Python](./hard/2392_build_a_matrix_with_conditions/build_a_matrix_with_conditions.py) | O(k + E) | O(k + E) |
+| 165 | 2407 | Longest Increasing Subsequence Ii | Hard       | [Python](./hard/2407_longest_increasing_subsequence_ii/longest_increasing_subsequence_ii.py) | O(n log n) | O(n) |
 <!-- SOLUTION_TABLE_END -->
 
 This repository is updated regularly to track my algorithm practice, clean coding skills, and preparation for remote Python/backend engineering roles.
